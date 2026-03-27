@@ -901,7 +901,7 @@ Depiction:
 SileoDepiction: 
 Filename: debs/com.yourepo.rol.mcloader_1.0-14_iphoneos-arm.deb
 
-Package: com.hackyouriphone.springtomize2
+Package: com.yourepo.repackaged.springtomize2-ios56
 Architecture: iphoneos-arm
 Name: Springtomize 2 - iOS 5 & 6
 Version: 1.4.3-1
@@ -914,6 +914,8 @@ Size: 207520
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Md5sum: 5f6ffe2112488241a7dfd9bd0658c94c
 SHA256: 564cc13fd8911362f4f9e592545faf20fd83c3efac0496c97a10fedac13de4fc
+Depiction: 
+SileoDepiction: 
 Filename: debs/com.yourepo.repackaged.springtomize2-ios56_1.4.3-1_iphoneos-arm.deb
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 
@@ -924,7 +926,7 @@ Architecture: iphoneos-arm
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: firmware (>= 5.0)
 Replaces: com.filippobiga.springtomize2 (<< 1.3-3), com.hackyouriphone.springtomize2 (<< 1.3-3)
-Filename: ./debs/com.hackyouriphone.springtomize2-icons_1.0-1_iphoneos-arm.deb
+Filename: debs/com.hackyouriphone.springtomize2-icons_1.0-1_iphoneos-arm.deb
 Size: 64856
 MD5sum: eff350e24d0e287d4192cec08e17a361
 SHA1: 3750bb163e0f71bf22badd416d3ada5252187c67

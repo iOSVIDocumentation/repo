@@ -786,7 +786,6 @@ SHA1: 123cbd1cb54b56e4032f45b30543a0a4156951dd
 SHA256: da5aaca8b0ca06ded50cc6fc975304972fc93a4efb309ba8e33da69ad4e73866
 SHA512: 965ac663d47f9b85d8ad231f1c1efee6decd894c1c5168ca089e7f01777c93920b3b7ef1cf10ccb1966237bf7b1ee7021880c1153db6bdd333cf9fc1d1f5cbcf
 Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Tag: purpose::extension
 Author: aoi_satou
 Name: AppStoreFix
 Depiction: http://aoiblog.jp/appstorefix_history.html

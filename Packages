@@ -796,12 +796,9 @@ Package: com.booleanmagic.displayrecorder
 Name: Display Recorder
 Architecture: iphoneos-arm
 Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
-Depiction: http://rpetri.ch/cydia/displayrecorder/
-Website: http://rpetri.ch/cydia/displayrecorder/
 Maintainer: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
 Author: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.9), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
-Tag: cydia::commercial
 Section: System
 dev: rpetrich
 Version: 1.3.22~beta1
@@ -953,3 +950,130 @@ Description: Localizations for Springtomize2
 Author: FilippoBiga <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=springtomize2-localizations
 Name: Springtomize2-Localizations
+
+Package: org.altervista.exilecom.icleaner
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8217
+Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
+Filename: debs/icleaner_7.10.0.deb
+Size: 2446940
+MD5sum: 4c9b7f7b22f6dc30faa0066a350c6c21
+SHA1: 6efb68d54f18921885f5cd18b30710ffe7daa27c
+SHA256: 751ef15952b2eae96556601ad4514507cda474d1ccbf30980be3aa72e307e6c1
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Description: The first real iOS system cleanup and management utility
+Tag: purpose::uikit
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Dev: exilecom
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner
+
+Package: com.ivanobilenchi.icleanerdarktheme
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: winterboard
+Filename: debs/iCleanerDarkTheme_1.0.2.deb
+Size: 1274
+MD5sum: 5e798339af8424c399d5373630007dd7
+SHA1: a058489360ec590c87722bff7ff3e7b8bb5a197d
+SHA256: 5188576106e2f9657da7d7520e416e98b799586e6f4b9ff43bdcdc5205fd191c
+Section: Themes
+Homepage: http://ib-soft.net/icleaner
+Description: Dark theme for the iCleaner and iCleaner Pro apps.
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner Dark Theme
+
+Package: dev.preloading.ebayx2
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 5788
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.ebayx
+Filename: debs/dev.preloading.ebayx2_1.0.0_iphoneos-arm.deb
+Size: 2117008
+MD5sum: 4b0fb6c5c7b99de018f48710df2ca904
+SHA1: 8689e668beb9042daa675bf2ead02d81a85cab12
+SHA256: 5f03147a44e21d104da06c3b5e481b5a00738b6eee6c42b94dfb8619d7193ac0
+Section: Tweaks (preloading)
+Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Description: A tweak that fixes the eBay app.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Name: EBayX²
+
+Package: dev.preloading.ebayx2
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 2552
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.ebayx
+Filename: debs/dev.preloading.ebayx2_1.0.1_iphoneos-arm.deb
+Size: 1195246
+MD5sum: c9b0f2e77d060e539149f3b911b8c968
+SHA1: e41125bfe937990d20706614444c9a15db22b322
+SHA256: bbaca7ad968ace096927534e4711628bd7444079d281425425ffeb8b29006e2f
+Section: Tweaks (preloading)
+Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Description: A tweak that fixes the eBay app.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Name: EBayX²
+
+Package: dev.preloading.ninaswitcherforaim
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.preloading.ninaswitcherforaim_1.2.0_iphoneos-arm.deb
+Size: 5978
+MD5sum: 9a413367eca496d66c0da3ac5400db00
+SHA1: f931d9f905308387f6df1e226daa65e9f1e95996
+SHA256: 66c64a1f8e4b5c3fd93fb19c45b0eab49f44a7d6a4de3c43d2023b723e3f4519
+Section: Tweaks (preloading)
+Description: A tweak to swap the URLs of AIM & ICQ apps to NINA's servers
+Author: Preloading
+Name: NINA Switcher
+
+Package: dev.preloading.retranslate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+Section: Tweaks (preloading)
+Description: Fixes Google Translate.
+Author: Preloading, SpaceSaver2000-1
+Name: Retranslate
+
+Package: dev.preloading.tubereplacer
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 956
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: debs/dev.preloading.tubereplacer_1.0.4_iphoneos-arm.deb
+Size: 233050
+MD5sum: e525c61dd71edaca04105f320cac8b81
+SHA1: 50927aa5fe1ece75cdef5d607a61a6a520f8ac98
+SHA256: 002ef516d0e1b247c9f38354cb1e36c7ffc73fc3824b6fd1ad2006ccf4264c1e
+Section: Tweaks (preloading)
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer

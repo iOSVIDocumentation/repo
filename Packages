@@ -1076,3 +1076,22 @@ Author: Preloading <me@preloading.dev>
 Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
+
+Package: com.filippobiga.harlem
+Version: 1.0-1
+Section: Ыныеуь (prikol)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 6.0), mobilesubstrate, libactivator
+Architecture: iphoneos-arm
+Filename: debs2.0/harlemshake_1.0-1.deb
+Size: 494356
+Installed-Size: 502
+MD5sum: e542a6fd4e6323c449d5096987b545e5
+SHA256: 32c84209473c9e1b867114368d23d64efc923c949e9f4cc264f75a08ea3c2a21
+Name: Harlem Shake
+Description: Springboard Harlem Shake!
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Tag: purpose::extension
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+dev: filippobiga
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp

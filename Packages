@@ -3,7 +3,7 @@ Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
-Filename: debs/com.iosvidocum.tihmstar.kDFUApp.deb
+Filename: debs/org.tihmstar.kDFUApp.deb
 Size: 80264
 MD5sum: 11acba9233d569267c58a2ff1e85a600
 SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
@@ -1077,13 +1077,13 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
-Package: com.iosvidocum.harlem
+Package: com.flippobiga.harlem
 Version: 1.0-1
 Section: Tweaks (prikol)
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware(>= 6.0), mobilesubstrate, libactivator
 Architecture: iphoneos-arm
-Filename: debs/com.iosvidocum.harlem_1.0-1_iphoneos-arm.deb
+Filename: debs/harlem_1.0-1.deb
 Size: 494356
 Installed-Size: 502
 MD5sum: e542a6fd4e6323c449d5096987b545e5

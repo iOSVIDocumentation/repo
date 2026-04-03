@@ -1,9 +1,9 @@
-Package: org.tihmstar.kDFUApp
+Package: com.iosvidocum.kDFUApp
 Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
-Filename: debs/org.tihmstar.kDFUApp.deb
+Filename: debs/com.iosvidocum.tihmstar.kDFUApp.deb
 Size: 80264
 MD5sum: 11acba9233d569267c58a2ff1e85a600
 SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
@@ -15,12 +15,12 @@ Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
 
-Package: com.lukezgd.kDFUBundles
+Package: com.iosvidocum.kDFUBundles
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: org.tihmstar.kDFUApp
-Filename: debs/com.lukezgd.kDFUBundles-1.0.1_iphoneos-arm.deb
+Filename: debs/com.iosvidocum.kDFUBundles-1.0.1_iphoneos-arm.deb
 Size: 10730
 MD5sum: 96964db28234171b2ebbebfc04239559
 SHA1: f5bff05635caeaeea05237f60a7ae1f2ebb0f1b9
@@ -30,13 +30,13 @@ Description: More device support for kDFUApp
 Author: LukeZGD
 Name: kDFUApp Bundles
 
-Package: kloader
+Package: com.iosvidocom.kloader
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
-Filename: debs/kloader-1.0.0.deb
+Filename: debs/com.iosvidocum.kloader-1.0.0.deb
 Size: 7982
 MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
 SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
@@ -50,12 +50,12 @@ Description: Don't install if you don't know what that is
 Author: winocm, xerub
 Name: kloader
 
-Package: libcrippy-1.0.0
+Package: com.iosvidocum.libcrippy-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
-Filename: debs/libcrippy-1.0.0.deb
+Filename: debs/com.iosvidocum.libcrippy-1.0.0.deb
 Size: 15858
 MD5sum: d0057e3946594ac6c18b7112383955e5
 SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
@@ -66,12 +66,12 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libcrippy-1.0.0
 
-Package: libpartialzip-1.0.0
+Package: com.iosvidocum.libpartialzip-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: firmware (>= 6.0), libcrippy-1.0.0
-Filename: debs/libpartialzip-1.0.0.deb
+Filename: debs/com.iosvidocum.libpartialzip-1.0.0.deb
 Size: 6830
 MD5sum: ab609167a1653beda05eb2876f2500bd
 SHA1: cf24410d852a756df9869e99dc3e0075baed092d
@@ -82,7 +82,7 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
 
-Package: ai.akemi.appsyncunified
+Package: com.iosvidocum.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm
 Maintainer: Karen/??? <karen@akemi.ai>
@@ -91,7 +91,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Filename: debs/com.iosdocum.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
 Size: 78056
 MD5sum: 94325cbe75c1b30c15b7f4f24defd37b
 SHA1: 698bcbf521d81925cf4528d4661fb4af973e5dab

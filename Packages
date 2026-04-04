@@ -1081,7 +1081,7 @@ Section: Tweaks (prikol)
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware(>= 6.0), mobilesubstrate, libactivator
 Architecture: iphoneos-arm
-Filename: debs/harlem_1.0-1.deb
+Filename: debs/com.flippobiga.harlem_1.0-1_iphoneos-arm.deb
 Size: 494356
 Installed-Size: 502
 MD5sum: e542a6fd4e6323c449d5096987b545e5

@@ -354,7 +354,7 @@ Package: com.ixmoe.1pwn.Veteris
 Version: 2.1.1
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
-Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
+Depends: firmware (>= 5.0), com.yourepo.lemonl.appsyncunified, moe.yzu.veterishelper
 Filename: debs/com.ixmoe.1pwn.veteris_2.1.1_iphoneos-arm.deb
 Size: 1950126
 MD5sum: d1b104bee17dd9505546ef6e91df438d
@@ -1074,22 +1074,3 @@ Author: Preloading <me@preloading.dev>
 Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
-
-Package: com.flippobiga.harlem
-Version: 1.0-1
-Section: Tweaks (prikol)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware(>= 6.0), mobilesubstrate, libactivator
-Architecture: iphoneos-arm
-Filename: debs/com.flippobiga.harlemshake_1.0-1_iphoneos-arm.deb
-Size: 494356
-Installed-Size: 502
-MD5sum: e542a6fd4e6323c449d5096987b545e5
-SHA256: 32c84209473c9e1b867114368d23d64efc923c949e9f4cc264f75a08ea3c2a21
-Name: Harlem Shake
-Description: Springboard Harlem Shake!
-Author: FilippoBiga <filippobiga.dev@gmail.com>
-Tag: purpose::extension
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
-dev: filippobiga
-homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp

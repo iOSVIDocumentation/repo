@@ -82,24 +82,26 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
 
-Package: com.yourepo.lemonl.appsyncunified
+Package: ai.akemi.appsyncunified
+Version: 110.0
 Architecture: iphoneos-arm
-Name: AppSync Unified
-Version: 84.0
-Description: install unsigned programs from pc!!1
-Author: Linus Yang, Karen
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: packs/nodelete-ai.akemi.appsyncunified.deb
+Size: 58440
+MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
+SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
+SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
 Section: Tweaks
-Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Size: 42444
-Maintainer: Karen
-Md5sum: 7181fe9851f0cda5f9454772c77d3edb
-SHA256: 69dd6586020d391b830e5abe73dbc00dc028f175132a4e0a9d4d16a53bda5894
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.yourepo.lemonl.appsyncunified_84.0_iphoneos-arm.deb
-Icon: https://cdn-static.yourepo.com/images/sections/users/28.png
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
 
 Package: com.yourepo.dinamit.auxo
 Architecture: iphoneos-arm
@@ -347,15 +349,15 @@ SHA1: 98ecb6684ebcf21993dd180851e20030dea68726
 SHA256: 9af54f52b9f46db8187cafc76851fa546ff72c03e1365e44ce07ff9b84bc4551
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
-Author: Stella Diaz (electimon
+Author: Stella Diaz (electimon)
 Name: Veteris Helper
 
 Package: com.ixmoe.1pwn.Veteris
 Version: 2.1.1
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
-Depends: firmware (>= 5.0), com.yourepo.lemonl.appsyncunified, moe.yzu.veterishelper
-Filename: debs/com.ixmoe.1pwn.veteris_2.1.1_iphoneos-arm.deb
+Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
+Filename: debs/Veteris-v2.1.1.deb
 Size: 1950126
 MD5sum: d1b104bee17dd9505546ef6e91df438d
 SHA1: b6b519d0825dafc94754f0b642a683149e54e271

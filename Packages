@@ -15,26 +15,6 @@ SileoDepiction:
 Filename: debs/com.yourepo.dinamit.auxo_1.4-2_iphoneos-arm.deb
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 
-Package: com.yourepo.mtp13013.applefileconduit2ios11arm64
-Architecture: iphoneos-arm
-Name: Apple File Conduit "2" (iOS 11+, arm64)
-Version: 1.2.0
-Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
-Author: saurik, Cannathea <csupport@cannathea.com>
-Section: Addons
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Size: 27572
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Md5sum: a61baee87cc6b1ab72227ef3db60c84b
-SHA256: b73ccb13c2fca0fb8d89eb17e3a379167ab98f743646a6b5de4b217a4fa01a25
-Depiction: 
-SileoDepiction: 
-Filename: debs/applefileconduit2ios11arm64_1.2.0_iphoneos-arm.deb
-Icon: https://cdn-static.yourepo.com/images/sections/users/1.png
-
 Package: com.yourepo.broadway.cydown
 Architecture: iphoneos-arm
 Name: CyDown

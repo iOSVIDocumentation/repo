@@ -1082,11 +1082,11 @@ Architecture: iphoneos-arm
 Name: Ano
 Version: 2.0
 Description: AI Client for iPhone OS 3.0-iOS 7
-Author: anazerka <1rol4k2@gmail.com>
+Author: anazerka
 Section: Messaging
 Depends: mobilesubstrate
 Size: 975718
 Maintainer: anazerka
 Md5sum: e051441204734cf61a2dc91cbafc11b0
 SHA256: 8d44013f0368d5b13ffd5d69647e87c662ef363a0b4d2bf215d8c933c5ba8001
-Filename: debs/ano_2.0_iphoneos-arm.deb
+Filename: debs/com.yourepo.1rol4k21337.ano_2.0_iphoneos-arm.deb

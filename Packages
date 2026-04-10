@@ -952,12 +952,6 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
-Section: System
-Filename: debs/com.coolbooter.coolbootercli-1.1-beta2-release.deb
-Size: 23627008
-MD5sum: 93f671a006d4f83ef76cde27b499d828
-SHA1: bacb638d66c159f26548aafeeb86a866398f6fa6
-SHA256: 40f03dd383d09290d12af650c7b78e7fe57b8c77f12b13d3c44e0a525f6f8c0a
 Package: com.legacyguides.pinterestx6
 Version: 1.0
 Architecture: iphoneos-arm

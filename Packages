@@ -831,7 +831,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 8217
 Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
-Filename: debs/icleaner_7.10.0.deb
+Filename: debs/org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
 Size: 2446940
 MD5sum: 4c9b7f7b22f6dc30faa0066a350c6c21
 SHA1: 6efb68d54f18921885f5cd18b30710ffe7daa27c
@@ -845,22 +845,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
 Dev: exilecom
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner
-
-Package: com.ivanobilenchi.icleanerdarktheme
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: winterboard
-Filename: debs/iCleanerDarkTheme_1.0.2.deb
-Size: 1274
-MD5sum: 5e798339af8424c399d5373630007dd7
-SHA1: a058489360ec590c87722bff7ff3e7b8bb5a197d
-SHA256: 5188576106e2f9657da7d7520e416e98b799586e6f4b9ff43bdcdc5205fd191c
-Section: Themes
-Homepage: http://ib-soft.net/icleaner
-Description: Dark theme for the iCleaner and iCleaner Pro apps.
-Author: Ivano Bilenchi <support@ib-soft.net>
-Name: iCleaner Dark Theme
 
 Package: dev.preloading.ebayx2
 Version: 1.0.0

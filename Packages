@@ -965,3 +965,17 @@ Maintainer: notfence
 Md5sum: 2403ebbc50b8111c9813d6b42069fd1b
 SHA256: ffe92dfdaa137bb83f0949618cf4527fc93045b26525991865d1616b1c7e3a18
 Filename: debs/com.yourepo.1rol4k21337.vless-core_0.2.17-1_iphoneos-arm.deb
+
+Package: com.yourepo.1rol4k21337.telegram
+Architecture: iphoneos-arm
+Name: Telegram
+Version: 1.0.0
+Description: Legacy Telegram client for iOS 6 and 7.
+Author: anazerka
+Section: Messaging
+Depends: mobilesubstrate
+Size: 743552
+Maintainer: anazerka
+Md5sum: ba6e880690b6c6597360fcd8f6b7e75a
+SHA256: bf5f8fc5e953927fcdeca9afceecfd54c6ae8b182470fc506cba237c6c66db04
+Filename: debs/com.yourepo.1rol4k21337.telegram_1.0.0_iphoneos-arm.deb

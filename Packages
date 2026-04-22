@@ -979,3 +979,17 @@ Maintainer: anazerka
 Md5sum: ba6e880690b6c6597360fcd8f6b7e75a
 SHA256: bf5f8fc5e953927fcdeca9afceecfd54c6ae8b182470fc506cba237c6c66db04
 Filename: debs/com.yourepo.1rol4k21337.telegram_1.0.0_iphoneos-arm.deb
+
+Package: com.yourepo.1rol4k21337.twelve
+Architecture: iphoneos-arm
+Name: Twelve
+Version: 1.0.0
+Description: Twelve for iOS 6
+Author: anazerka
+Section: Messaging
+Depends: mobilesubstrate
+Size: 1101898
+Maintainer: anazerka
+Md5sum: 88d0e893618e762c965655c630d1b2d4
+SHA256: 86c1439132ed266f470047fb725e7cc7945afdcfffd39cb1bf33524042de109a
+Filename: debs/twelve_1.0.0_iphoneos-arm.deb

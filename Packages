@@ -232,7 +232,7 @@ Version: 2.1.1
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
-Filename: debs/Veteris-v2.1.1.deb
+Filename: debs/com.ixmoe.1pwn.veteris_2.1.1_iphoneos-arm.deb
 Size: 1950126
 MD5sum: d1b104bee17dd9505546ef6e91df438d
 SHA1: b6b519d0825dafc94754f0b642a683149e54e271

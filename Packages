@@ -960,10 +960,10 @@ Description: vless-core app
 Author: notfence
 Section: System
 Depends: firmware (>= 6.0), mobilesubstrate
-Size: 2731556
+Size: 2731572
 Maintainer: notfence
-Md5sum: 2403ebbc50b8111c9813d6b42069fd1b
-SHA256: ffe92dfdaa137bb83f0949618cf4527fc93045b26525991865d1616b1c7e3a18
+Md5sum: 11afea0ea6c4f58318dc923ea4edbc09
+SHA256: 45657bd057e7b267db2cda6a7a8fd990b95b44d94fd7ce0fc2b50636e484f8eb
 Filename: debs/com.yourepo.1rol4k21337.vless-core_0.2.17-1_iphoneos-arm.deb
 
 Package: com.yourepo.1rol4k21337.telegram

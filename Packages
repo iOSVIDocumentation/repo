@@ -352,7 +352,7 @@ Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.p
 Name: TubeRepair [BETA]
 
 Package: bag.xml.tuberepair
-Version: 1.2-Beta-1
+Version: 	-1
 Architecture: iphoneos-arm
 Maintainer: bag.xml, Requis
 Installed-Size: 216

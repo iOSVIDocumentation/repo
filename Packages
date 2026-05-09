@@ -993,3 +993,17 @@ Maintainer: anazerka
 Md5sum: 88d0e893618e762c965655c630d1b2d4
 SHA256: 86c1439132ed266f470047fb725e7cc7945afdcfffd39cb1bf33524042de109a
 Filename: debs/com.yourepo.1rol4k21337.twelve_1.0.0_iphoneos-arm.deb
+
+Package: com.duradabdul.neptune
+Architecture: iphoneos-arm
+Name: Neptune
+Version: 0.0.1
+Description: Neptune is a lightweight jailbreak tweak for iOS 12 that brings the modern iPhone X interface and fluid gestures to older devices. It replaces the physical Home button functionality with swipe-based navigation for closing apps and accessing the multitasking menu. The tweak also enables the split status bar layout and adds quick-access flashlight and camera buttons to the Lock Screen. Additionally, it changes the Control Center invocation to a swipe down from the top right corner of the screen
+Author: duradabdul
+Section: Tweak
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.spark.libsparkapplist
+Size: 6106
+Maintainer: duradabdul
+Md5sum: cbd9f2d652001a52b20e0647c8f925f6
+SHA256: c087294549da817248f06a2ff008957921c50434dee4f9bc098bcc1f8d5dd911
+Filename: debs/com.duraidabdul.neptune_0.0.1_iphoneos-arm.deb

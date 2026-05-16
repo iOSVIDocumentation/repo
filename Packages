@@ -7,9 +7,9 @@ Depends: firmware (<< 8.0) | mobilesubstrate
 Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Filename: debs/com.iosvidocum.afc2d_1.2_iphoneos-arm.deb
 Size: 18114
-MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+MD5sum: c16c8fc3752694469574445d899fa79f
 Section: System
 Priority: optional
 Description: allow full file-system access over USB

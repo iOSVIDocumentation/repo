@@ -996,7 +996,7 @@ Filename: debs/com.yourepo.1rol4k21337.twelve_1.0.0_iphoneos-arm.deb
 
 Package: com.iosvidocum.ifile
 Version: 2.2.0-1
-Section: Apps
+Section: System
 Maintainer: Carsten Heinelt
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Architecture: iphoneos-arm

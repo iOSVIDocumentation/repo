@@ -993,3 +993,17 @@ Maintainer: anazerka
 Md5sum: 88d0e893618e762c965655c630d1b2d4
 SHA256: 86c1439132ed266f470047fb725e7cc7945afdcfffd39cb1bf33524042de109a
 Filename: debs/com.yourepo.1rol4k21337.twelve_1.0.0_iphoneos-arm.deb
+
+Package: com.iosvidocum.ifile
+Version: 2.2.0-1
+Section: Apps
+Maintainer: Carsten Heinelt
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Architecture: iphoneos-arm
+Filename: debs/com.iosvidocum.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9922518
+Installed-Size: 20224
+MD5sum: db8db12138425bce8df754279a1548ba
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
+Name: iFile
+Author: Carsten Heinelt

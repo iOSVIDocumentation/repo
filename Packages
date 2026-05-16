@@ -1003,7 +1003,7 @@ Architecture: iphoneos-arm
 Filename: debs/com.iosvidocum.ifile_2.2.0-1_iphoneos-arm.deb
 Size: 9746570
 Installed-Size: 20224
-MD5sum: db8db12138425bce8df754279a1548ba
+MD5sum: b2f34684d22b892b82133b44f1deb570
 Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
 Name: iFile
 Author: Carsten Heinelt

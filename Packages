@@ -1,3 +1,17 @@
+Package: com.iosvidocum.localiapstore
+Architecture: iphoneos-arm
+Name: LocalIAPStore
+Version: 1.4-1
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Section: Tweaks
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Size: 71058
+Maintainer: iOS VI Documentation
+Md5sum: 57d35fad521b09ee29152383cd1fae9c
+SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
+Filename: debs/com.iosvidocum.localiapstore_1.4-1_iphoneos-arm.deb
+
 Package: com.iosvidocum.cardswitcher-app
 Version: 2.0-1
 Priority: optional
@@ -305,23 +319,6 @@ Description: A Client for the Veteris Server.
 Author: Electimon <electimon@gmail.com>
 Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
 Name: Veteris
-
-Package: com.yourepo.zxverowner.localiapstore
-Architecture: iphoneos-arm
-Name: LocalIAPStore
-Version: 1.4-2
-Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Author: BYA Repository <karlchnintendoacc@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Size: 70940
-Maintainer: anon dev
-Md5sum: 3c64acdf0af88c9d5ff847a5d96d9faa
-SHA256: d55a9f7c85058fee322cba848a7ac3de26db119867b71b830f9f7f07f3f1387b
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.yourepo.zxverowner.localiapstore_1.4-2_iphoneos-arm.deb
-Icon: https://cdn-static.yourepo.com/images/sections/users/33.png
 
 Package: bag.skyglow.bluetweety
 Version: 1.0

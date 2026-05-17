@@ -1,3 +1,45 @@
+Package: com.iosvidocum.cardswitcher-app
+Version: 2.0-1
+Priority: optional
+Section: Tweaks
+Maintainer: iOS VI Documentation
+Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
+Architecture: iphoneos-arm
+Filename: debs/com.iosvidocum.cardswitcher-app_2.0-1_iphoneos-arm.deb
+Size: 84790
+MD5sum: 4e111f269e22b4aa537bff74cc30682e
+SHA256: 7370544fe88fbee58e4f9320bf12f821ef803c3689c3ec5c7c94db18ee5afbe4
+Name: CardSwitcher
+Description: idk
+Sponsor: iKy1e (Kyle Howells)
+Author: vibez <mr.vibez@gmail.com>
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cardswitcherData
+dev: iKy1e (Kyle Howells)
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cardswitcherData
+
+Package: org.iosvidocum.audioout
+Version: 1.4.0-7
+Priority: optional
+Section: Tweaks
+Maintainer: iOS VI Documentation
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: debs/org.iosvidocum.audioout_1.4.0-7_iphoneos-arm.deb
+Size: 411968
+Installed-Size: 3012
+MD5sum: 57e818822dabfc55e4ce5f3cedbe8940
+SHA256: 42f0a32cc13c77d75d123b76485de87ebd90d017ae177269a8790128a21d9ca1
+Name: AudioOut
+Icon: file:///Library/PreferenceBundles/AudioOutPrefs.bundle/AudioOutPrefs@2x.png
+Description: idk
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: vibez <mr.vibez@gmail.com>
+Tag: purpose::extension, ios7support::1, ios8support::1
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
+dev: vibez
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
+
+
 Package: com.iosvidocum.afc2d
 Version: 1.2
 Architecture: iphoneos-arm

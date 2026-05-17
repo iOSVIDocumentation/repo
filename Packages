@@ -31,10 +31,10 @@ MD5sum: 57e818822dabfc55e4ce5f3cedbe8940
 SHA256: 42f0a32cc13c77d75d123b76485de87ebd90d017ae177269a8790128a21d9ca1
 Name: AudioOut
 Icon: file:///Library/PreferenceBundles/AudioOutPrefs.bundle/AudioOutPrefs@2x.png
-Description: idk
+Description: download cydown before donloading!
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: vibez <mr.vibez@gmail.com>
-Tag: purpose::extension, ios7support::1, ios8support::1
+Tag: purpose::extension, ios7support::1, ios8support::, cydia::commercial
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
 dev: vibez
 homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp

@@ -1066,3 +1066,16 @@ MD5sum: b2f34684d22b892b82133b44f1deb570
 Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
 Name: iFile
 Author: Carsten Heinelt
+
+Package: com.soundwave.app
+Name: SoundWave
+Description: SoundCloud client for iOS 3
+Maintainer: anazerka
+Author: anazerka
+Section: Applications
+Architecture: iphoneos-arm
+Version: 1.0.0-136+debug
+Installed-Size: 1200
+Size: 827524
+Filename: debs/com.soundwave.app_1.0.0-136+debug_iphoneos-arm.deb
+MD5sum: a291ff3a14445c045ea185209d2f1cea

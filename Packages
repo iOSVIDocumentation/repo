@@ -1072,7 +1072,7 @@ Name: SoundWave
 Description: SoundCloud client for iOS 3
 Maintainer: anazerka
 Author: anazerka
-Section: Applications
+Section: System
 Architecture: iphoneos-arm
 Version: 1.0.0-136+debug
 Installed-Size: 1200

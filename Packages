@@ -66,7 +66,7 @@ Icon: file:///Library/PreferenceBundles/AudioOutPrefs.bundle/AudioOutPrefs@2x.pn
 Description: download cydown before donloading!
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: vibez <mr.vibez@gmail.com>
-Tag: purpose::extension, ios7support::1, ios8support::, cydia::commercial
+Tag: purpose::extension, ios7support::1, ios8support::
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
 dev: vibez
 homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp

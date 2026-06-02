@@ -12,6 +12,24 @@ Md5sum: 57d35fad521b09ee29152383cd1fae9c
 SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
 Filename: debs/com.iosvidocum.localiapstore_1.4-1_iphoneos-arm.deb
 
+Package: com.iosvidocum.appdrop
+Name: AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Homepage: https://github.com/AdrienRL1/AppDrop
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Maintainer: Adrien Ruest-Lorquet
+Author: Adrien Ruest-Lorquet
+Section: Utilities
+Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Tag: compatible_min::ios5.0
+Architecture: iphoneos-arm
+Version: 2.0
+Installed-Size: 2428
+Filename: debs/com.iosvidocum.appdrop_2.0_iphoneos-arm.deb
+Md5sum: 5fdc91a8d8130ad555f72d0bd957d882
+Size: 1563102
+
 Package: com.iosvidocum.cardswitcher-app
 Version: 2.0-1
 Priority: optional
@@ -301,7 +319,7 @@ SHA256: 9af54f52b9f46db8187cafc76851fa546ff72c03e1365e44ce07ff9b84bc4551
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Stella Diaz (electimon)
-Name: Veteris Helper
+Name: Veteris Helper (rip)
 
 Package: com.ixmoe.1pwn.Veteris
 Version: 2.1.1
@@ -318,7 +336,7 @@ Homepage: http://1pwn.ixmoe.com/
 Description: A Client for the Veteris Server.
 Author: Electimon <electimon@gmail.com>
 Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
-Name: Veteris
+Name: Veteris (rip)
 
 Package: bag.skyglow.bluetweety
 Version: 1.0

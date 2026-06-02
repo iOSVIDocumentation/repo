@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="apple-touch-icon" href="CydiaIcon.png">
     
-    <title>iOS-VI-Documentation</title>
+    <title>About - iOS-VI-Documentation</title>
     
     <style type="text/css">
         body {
@@ -15,11 +15,11 @@
             margin: 0;
             padding: 0;
             -webkit-text-size-adjust: none;
+            -webkit-user-select: none;
         }
 
         .header {
-            background: #6d84a2;
-            background: -webkit-gradient(linear, left top, left bottom, from(#b2bbca), color-stop(0.5, #6d84a2), color-stop(0.51, #476e9e), to(#2c5387));
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#b2bbca), color-stop(0.5, #6d84a2), color-stop(0.51, #476e9e), to(#2c5387));
             border-bottom: 1px solid #2d3642;
             height: 44px;
             line-height: 44px;
@@ -40,7 +40,7 @@
             -webkit-border-radius: 8px;
             padding: 10px;
             margin-bottom: 15px;
-            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
         }
 
         h1 { font-size: 17px; margin: 0 0 5px 0; color: #000; }
@@ -55,47 +55,124 @@
             font-weight: bold;
             font-size: 17px;
             color: #fff;
-            text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+            text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
             border: 1px solid #143663;
             -webkit-border-radius: 8px;
-            background: -webkit-gradient(linear, left top, left bottom, from(#7db9e8), to(#2989d8));
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#7db9e8), to(#2989d8));
         }
 
         .button:active {
-            background: #1e5799;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#2989d8), to(#1e5799));
         }
 
-        /* Список пакетов */
-        ul { list-style: none; padding: 0; margin: 10px 0; border-top: 1px solid #ccc; }
+        .section-title {
+            color: #4c566c; 
+            text-shadow: 0 1px 0 #fff; 
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0 0 6px 8px;
+            text-transform: uppercase;
+        }
+
+        ul { list-style: none; padding: 0; margin: 0; }
+        
         li { 
-            padding: 10px; 
-            border-bottom: 1px solid #ccc; 
-            font-size: 15px; 
-            background: white;
+            position: relative;
+            padding: 11px 30px 11px 45px; 
+            border-top: 1px solid #d9d9d9; 
+            font-size: 16px; 
+            font-weight: bold;
+            color: #000;
+            background: #fff;
+        }
+
+        li:first-child {
+            border-top: none;
+            -webkit-border-top-left-radius: 7px;
+            -webkit-border-top-right-radius: 7px;
+        }
+
+        li:last-child {
+            -webkit-border-bottom-left-radius: 7px;
+            -webkit-border-bottom-right-radius: 7px;
+        }
+
+        .package-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            margin-top: -13px;
+            width: 26px;
+            height: 26px;
+            background-color: #cbd3d8;
+            -webkit-border-radius: 5px;
+            background-size: 18px 18px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .chevron {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            margin-top: -6px;
+            width: 7px;
+            height: 7px;
+            border-top: 3px solid #7a7a7a;
+            border-right: 3px solid #7a7a7a;
+            -webkit-transform: rotate(45deg);
         }
     </style>
 </head>
 <body>
 
-<div class="header">iOS-VI-Documentation</div>
+<div class="header">About</div>
 
 <div class="container">
+    <div class="section-title">Project Info</div>
     <div class="box">
-        <h1>Welcome!!1</h1>
-        <p>dev:1RoL4K2, rafal</p>
-        
+        <h1>iOS-VI-Documentation</h1>
+        <p style="margin-top: 5px; line-height: 1.4;">
+            Наш проект создан для поддержки и сохранения истории легендарных legacy-устройств Apple. Мы собираем документацию, полезные утилиты и твики, помогающие вдохнуть вторую жизнь в девайсы на базе iOS 5 и iOS 6.
+        </p>
+        <hr style="border: 0; border-top: 1px solid #d9d9d9; margin: 10px 0;">
+        <p style="line-height: 1.4;">
+            Our project is dedicated to supporting and preserving the history of legacy Apple devices. We gather documentation, useful utilities, and tweaks to breathe new life into iOS 5 and iOS 6 devices.
+        </p>
         <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iosvidocumentation.github.io/repo/" class="button">
             Add to Cydia
         </a>
     </div>
 
-    <div class="box" style="padding:0;">
-        <div style="padding:10px 10px 5px 10px;"><h1>My packages:</h1></div>
+    <div class="section-title">Developers</div>
+    <div class="box" style="padding: 0;">
         <ul>
-            <li>Veteris</li>
-            <li>CyDown</li>
-            <li>Auxo</li>
-            <li>And many other:)</li>
+            <li>
+                <div class="package-icon" style="background-color: #5ac8fa;"></div>
+                1RoL4K2 (ostap)
+                <span style="position: absolute; right: 15px; color: #8e8e93; font-size: 15px; font-weight: normal;">Main Dev</span>
+            </li>
+            <li>
+                <div class="package-icon" style="background-color: #5856d6;"></div>
+                rafal (L)
+                <span style="position: absolute; right: 15px; color: #8e8e93; font-size: 15px; font-weight: normal;">Dev</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-title">Links & Community</div>
+    <div class="box" style="padding: 0;">
+        <ul>
+            <li onclick="location.href='https://github.com/iosvidocumentation/repo';">
+                <div class="package-icon" style="background-image: url('https://cdn-icons-png.flaticon.com/256/25/25231.png');"></div>
+                GitHub Repository
+                <div class="chevron"></div>
+            </li>
+            <li onclick="location.href='https://t.me/iOS_VI_Documentation';">
+                <div class="package-icon" style="background-image: url('https://cdn-icons-png.flaticon.com/256/2111/2111646.png');"></div>
+                Telegram channel
+                <div class="chevron"></div>
+            </li>
         </ul>
     </div>
 </div>

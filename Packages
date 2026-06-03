@@ -1097,3 +1097,44 @@ Installed-Size: 1200
 Size: 827524
 Filename: debs/com.soundwave.app_1.0.0-136+debug_iphoneos-arm.deb
 MD5sum: a291ff3a14445c045ea185209d2f1cea
+
+Author: chpwn <support@chpwn.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Infiniboard
+Package: com.iosvidocum.infiniboard
+Section: Tweaks
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport (>= 1.6)
+Architecture: iphoneos-arm
+Description: Vertically scroll your home screen pages!
+Depiction: http://chpwn.com/cydia/infiniboard.html
+Homepage: http://chpwn.com/cydia/infiniboard.html
+Sponsor: thebigboss.org <http://thebigboss.org>
+Icon: file:///Library/PreferenceLoader/Preferences/Infiniboard.png
+dev: chpwn
+Version: 2.1.2-1
+Installed-Size: 204
+Filename: debs/com.iosvidocum.infiniboard_2.1.2-1_iphoneos-arm.deb
+Size: 54654
+MD5sum: dcfd2e0110737a1deddf6197f7f7b0dd
+
+Author: chpwn <support@chpwn.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Infinifolders
+Package: com.iosvidocum.infinifolders
+Section: Tweaks
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
+Architecture: iphoneos-arm
+Description: Scroll your folders: break the icon barrier!
+Depiction: http://chpwn.com/cydia/infinifolders.html
+Homepage: http://chpwn.com/cydia/infinifolders.html
+Icon: file:///Library/PreferenceLoader/Preferences/Infinifolders.png
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension
+dev: chpwn
+Version: 2.1.2-1
+Installed-Size: 188
+Size: 49320
+Filename: debs/com.iosvidocum.infinifolders_2.1.2-1_iphoneos-arm.deb
+MD5sum: d0018e84263a6ae50a921a2668a902ae

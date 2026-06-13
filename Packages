@@ -1,3 +1,21 @@
+Package: com.iosvidocum.harlem
+Depends: firmware(>= 6.0), mobilesubstrate, libactivator
+Name: Harlem Shake
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Springboard Harlem Shake!
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Section: Tweaks
+dev: filippobiga
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Installed-Size: 502
+Tag: purpose::extension
+Filename: debs/com.iosvidocum.harlem_1.0-1_iphoneos-arm.deb
+Size: 495272
+MD5sum: fa76eda26aaad83502b9ef262526a01e
+
 Package: com.iosvidocum.localiapstore
 Architecture: iphoneos-arm
 Name: LocalIAPStore
@@ -11,6 +29,25 @@ Maintainer: iOS VI Documentation
 Md5sum: 57d35fad521b09ee29152383cd1fae9c
 SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
 Filename: debs/com.iosvidocum.localiapstore_1.4-1_iphoneos-arm.deb
+
+Package: com.iosvidocum.fullforce
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Depends: firmware (>= 3.2), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cy+model.ipad | gsc.ipad | gsc.wildcat, cydia (>= 1.1.1)
+Description: Force applications to show in iPad mode
+Name: FullForce
+Homepage: http://rpetri.ch/cydia/fullforce/
+Depiction: http://rpetri.ch/cydia/fullforce/
+Author: Ryan Petrich <rpetrich@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Tag: purpose::extension
+Version: 1.3.6
+Installed-Size: 136
+Filename: debs/com.iosvidocum.fullforce_1.3.6_iphoneos-arm.deb
+Size: 30068
+MD5sum: 49f448e87cd713d9c2fe276dc836aaa0
 
 Package: com.iosvidocum.appdrop
 Name: AppDrop

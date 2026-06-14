@@ -68,23 +68,302 @@ Filename: debs/com.iosvidocum.fullforce_1.3.6_iphoneos-arm.deb
 Size: 30068
 MD5sum: 49f448e87cd713d9c2fe276dc836aaa0
 
-Package: com.iosvidocum.appdrop
-Name: AppDrop
-Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Package: ca.adrien.appdrop
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Adrien
+Installed-Size: 48524
+Depends: firmware (>= 6.0), com.linusyang.appsync
+Filename: ./debs/ca.adrien.appdrop_1.4_iphoneos-arm.deb
+Size: 8782136
+MD5sum: fa30d9ea99530b4c2296209938b94fe5
+SHA1: d301f42132ba618569631b5265b29d7524553ff7
+SHA256: c6ee4b95993324ffa03178462a436185b852179302a61437ad0c215c61965186
+Section: Utilities
 Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 6-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios6.0
+Author: Adrien
+Depiction: https://github.com/AdrienRL1/AppDrop/releases/tag/v1.4
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 1.4-5
+Architecture: iphoneos-arm
+Maintainer: Adrien
+Installed-Size: 48628
+Depends: firmware (>= 6.0), net.angelxwind.appsyncunified | com.linusyang.appsync
+Filename: ./debs/ca.adrien.appdrop_1.4-5_iphoneos-arm.deb
+Size: 8792586
+MD5sum: 916d235fc37a94aa91e5e9e2b06e62ab
+SHA1: 9cf76a29fdc85f01d8e8fec74e029ae72001d3d7
+SHA256: 550fbf9995cbd7e345cc8db8d4de1de1d0126bf96e5414a3b8f6460a569d500c
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 6-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios6.0
+Author: Adrien
+Depiction: https://github.com/AdrienRL1/AppDrop/releases/tag/v1.4
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Adrien
+Installed-Size: 48628
+Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync
+Filename: ./debs/ca.adrien.appdrop_1.5_iphoneos-arm.deb
+Size: 8799010
+MD5sum: cc4cf37caadbff7d98ce180e181fd3f2
+SHA1: 477f9ed9ede0e3fefa74d336579224681b6c03ca
+SHA256: 625bb4b9c5fea0aa5719af713adc0af114a8adf38152c21b041b142fe8e4512e
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios5.0
+Author: Adrien
+Depiction: https://github.com/AdrienRL1/AppDrop/releases/tag/v1.5
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 1.5-19
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 48376
+Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_1.5-19_iphoneos-arm.deb
+Size: 8498918
+MD5sum: f20695b9e0e901417f0452f087e072cb
+SHA1: 6189f60cb733f7d9f7dcee7f56a88836ec86b30d
+SHA256: f2e3048c04b56dde969583edd0739acca7b0e16610e678ea84b33599543f2280
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
 Depiction: https://adrienrl1.github.io/cydia/depiction.html
 Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
-Maintainer: Adrien Ruest-Lorquet
-Author: Adrien Ruest-Lorquet
-Section: Utilities
-Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Tag: compatible_min::ios5.0
-Architecture: iphoneos-arm
+Name: AppDrop
+
+Package: ca.adrien.appdrop
 Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2428
-Filename: debs/com.iosvidocum.appdrop_2.0_iphoneos-arm.deb
-Md5sum: 5fdc91a8d8130ad555f72d0bd957d882
-Size: 1563102
+Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_2.0_iphoneos-arm.deb
+Size: 1322052
+MD5sum: c05db076535bd1bf6a3e9dbdcac7880b
+SHA1: 71213b4f8dc60a69b900ed6b3cd3df1b505c5a0f
+SHA256: 2913f8dd4b5dbc0702adbf23dadd357d9c1371557f533691c347d95a733395e8
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2048
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.0_iphoneos-arm.deb
+Size: 786706
+MD5sum: c072b7e862d5413470fd09fb6ffae079
+SHA1: 36a93ab13e9d280986c8a4fd19233e3954343d3f
+SHA256: 96914a83d3dc360f085dbd209198eaf8b528873e3d636229f1cec790a7372127
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ vintage iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.0: 17 themes + dark mode, list/grid layout, Favorites & folders, download-later, a Modded section, app sharing, FairPlay-aware installs, 8 languages.
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2160
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.1_iphoneos-arm.deb
+Size: 818076
+MD5sum: 0ff8f423223a8fd4b08909bbc2c47ab9
+SHA1: 9e3133dbdca90f2e0ab023cef7fcb10ceeaabd7c
+SHA256: 31dff89e3e0a4e32f963ad65d8e7f63954265ade75ad77f5559029dee7be6137
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ vintage iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.1: suggest-a-category, automatic crash reports, encrypted-IPA & low-storage install guards, plus fixes for iOS 9 installs, the iPad 1 catalog hang, download resume & dark-mode readability. (17 themes + dark mode, Favorites & folders, app sharing, 8 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.1.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2164
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.1.1_iphoneos-arm.deb
+Size: 821310
+MD5sum: 940eee52c5bf8e41c99c4b3eabd221b7
+SHA1: f3dbf6916cd4fa3f10089a3e859f9096207550c1
+SHA256: 2d18ab641c5c7f4ffc732fbdeb17f755aaa6f983c63844ad633b2a4136876a5d
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.1: suggest-a-category, automatic crash reports, encrypted-IPA & low-storage install guards, plus fixes for iOS 9 installs, the iPad 1 catalog hang, download resume & dark-mode readability. (17 themes + dark mode, Favorites & folders, app sharing, 8 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.1.2
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2180
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.1.2_iphoneos-arm.deb
+Size: 824482
+MD5sum: 27608db8183f93a2808f66af2d04a4a5
+SHA1: 355dfb05c3d8c7dd730d82c208633d650bfe2384
+SHA256: a4adf522c2e176162f77512c85474a65e5e5eafc5f5f5629770627842733d7bc
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.1.2: fixes a false "install failed" message when the app actually installed, and warns before installing a 64-bit-only (arm64) app that can't run on a 32-bit device. (17 themes + dark mode, Favorites & folders, app sharing, 8 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.1.3
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2072
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.1.3_iphoneos-arm.deb
+Size: 759002
+MD5sum: 1e914fddea0290d87b1dd104214ea276
+SHA1: 73c35c328b49f1c3943b4ac9534c92f555144f2a
+SHA256: 8a629a71cf05f4ddae20ddd248456f1513e6c1bb1a26d3da6d300e978761dd9b
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.1.3: Polish added (9th language, UI + app descriptions), a multi-select download button on iPhone, Respring & Clear-catalog-cache options, app names load while scrolling, and a big performance pass (faster, lower CPU/GPU/RAM, smoother fast-scrolling, near-instant category/version browsing) tuned from the iPad 1 up. (17 themes + dark mode, Favorites & folders, app sharing, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.1.4
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.1.4_iphoneos-arm.deb
+Size: 721876
+MD5sum: 7a87e185fc381f1e860787d1354feafc
+SHA1: 12ac2f79563ffbf0db3d78d9a632b1a6ae0b6c0c
+SHA256: 489dbb826050ae0b248ffa4cad176c004aabd0bc4e4085c093db7fb04b293bc9
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.1.4: fixed the Respring button (Settings), and removed the "Works Today", "Modded apps", "Share an app" and "Suggest a category" features. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2_iphoneos-arm.deb
+Size: 731202
+MD5sum: f82ae36eb0c9de82d52a6dcedbb425bb
+SHA1: d2ef8f5ad6bc3dc1b473963a9eb33ecd8b3dca86
+SHA256: 0ab7b525d311a465fc27080414366cce773c9c2197427a95e08508e4a6703e5b
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.2.0.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 805
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.0.1_iphoneos-arm.deb
+Size: 731896
+MD5sum: 4a7675fc49b2610d286e571f6a999721
+SHA1: afa72cc9e698e6eb1b3583531dd3cb70fdc6578d
+SHA256: cbdf358364895a047b879c4faf7872a2e70227e128acc270e3942800d4f98831
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.2.0.2
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.0.2_iphoneos-arm.deb
+Size: 732002
+MD5sum: 2fdee241d0131b17e58343baca2733c6
+SHA1: 947d34263062c71046f449c60a89fde65bab9457
+SHA256: 5d03d1a719b3a9896f70542bab828bbcc2753c2ac06bb01431e906b4251dd87c
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: ca.adrien.appdrop
+Version: 3.2.0.3
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.0.3_iphoneos-arm.deb
+Size: 732556
+MD5sum: 5ce916c40f9dac3596fa5b9f5275dc95
+SHA1: fa4b41f432a079f99b2ff8264f6a751761e96d8d
+SHA256: e4ef8afe0eda622c4073db76ef292535e8a73c9c2fb619a3fd0d652e18315425
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
 
 Package: com.iosvidocum.cardswitcher-app
 Version: 2.0-1

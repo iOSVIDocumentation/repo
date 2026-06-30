@@ -1383,19 +1383,19 @@ Description: Pinterest patched for iOS 6+
 Author: LegacyGuides <contact@legacyios.com>
 Name: PinterestX for iOS 6+
 
-Package: com.yourepo.1rol4k21337.vless-core
-Architecture: iphoneos-arm
+Package: com.vlesscore.app
 Name: vless-core
-Version: 0.2.17-1
-Description: vless-core app
-Author: notfence
-Section: System
-Depends: firmware (>= 6.0), mobilesubstrate
-Size: 2731572
+Version: 0.3.7-1
+Architecture: iphoneos-arm
+Description: Full-device VLESS routing app
 Maintainer: notfence
-Md5sum: 11afea0ea6c4f58318dc923ea4edbc09
-SHA256: 45657bd057e7b267db2cda6a7a8fd990b95b44d94fd7ce0fc2b50636e484f8eb
-Filename: debs/com.yourepo.1rol4k21337.vless-core_0.2.17-1_iphoneos-arm.deb
+Author: notfence
+Section: Networking
+Priority: optional
+Depends: firmware (>= 6.0), mobilesubstrate
+Size: 2825804
+MD5sum: 13b956308ae7b2ebd78d2dbe16236061
+Filename: debs/com.vlesscore.app_iphoneos-arm.deb
 
 Package: com.yourepo.1rol4k21337.telegram
 Architecture: iphoneos-arm

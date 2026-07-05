@@ -1492,3 +1492,77 @@ Installed-Size: 188
 Size: 49230
 Filename: debs/com.iosvidocum.infinifolders_2.1.2-1_iphoneos-arm.deb
 MD5sum: d0018e84263a6ae50a921a2668a902ae
+
+Package: com.iosvidocum.kDFUBundles
+Name: kDFUApp Bundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: org.tihmstar.kDFUApp
+Description: More device support for kDFUApp
+Author: LukeZGD
+Maintainer: LukeZGD
+Section: System
+MD5sum: 1d5dba6d9bb8680a062bffef02ad47cc
+Size: 10746
+Filename: debs/com.iosvidocum.kDFUBundles_1.0.1_iphoneos-arm.deb
+
+Package: com.iosvidocum.kloader
+Name: kloader
+Version: 1.0
+Section: System
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Description: Don't install if you don't know what that is
+	Do not install this package if you don't know what this is.
+	Installing this on a production device is not recommended.
+Priority: optional
+Architecture: iphoneos-arm
+Author: winocm, xerub
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Maintainer: tihmstar
+MD5sum: ea63d38d4ad6ac2e37171b1288a0669a
+Size: 8002
+Filename: debs/com.iosvidocum.kloader_1.0_iphoneos-arm.deb
+
+Package: com.iosvidocum.libcrippy-1.0.0
+Name: libcrippy-1.0.0
+Version: 1.0
+Section: Development
+Depends: firmware (>= 6.0)
+Priority: optional
+Architecture: iphoneos-arm
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Maintainer: tihmstar
+MD5sum: 195eac2e87fedbcef86439bf604d62b4
+Size: 15888
+Filename: debs/com.iosvidocum.libcrippy-1.0.0_1.0_iphoneos-arm.deb
+
+Package: com.iosvidocum.libpartialzip-1.0.0
+Name: libpartialzip-1.0.0
+Version: 1.0
+Section: Development
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Priority: optional
+Architecture: iphoneos-arm
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Maintainer: tihmstar
+MD5sum: 18c31ba13a8113b8b1dc71b07d952a05
+Size: 6864
+Filename: debs/com.iosvidocum.libpartialzip-1.0.0_1.0_iphoneos-arm.deb
+
+Package: com.iosvidocum.kDFUApp
+Name: kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Priority: optional
+Description: easy way to get into kDFU mode
+Author: tihmstar
+Maintainer: tihmstar
+Section: System
+dev: tihmstar
+MD5sum: 780609610515709a4be0981c3d5a916c
+Size: 80276
+Filename: debs/com.iosvidocum.kDFUApp_1.0.3_iphoneos-arm.deb

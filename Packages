@@ -1385,7 +1385,7 @@ Name: PinterestX for iOS 6+
 
 Package: com.vlesscore.app
 Name: vless-core
-Version: 0.3.7-1
+Version: 0.3.8-1
 Architecture: iphoneos-arm
 Description: Full-device VLESS routing app
 Maintainer: notfence
@@ -1393,8 +1393,8 @@ Author: notfence
 Section: Networking
 Priority: optional
 Depends: firmware (>= 6.0), mobilesubstrate
-Size: 2825804
-MD5sum: 13b956308ae7b2ebd78d2dbe16236061
+Size: 2841970
+MD5sum: 1dd497cfeca2cdb071da09fb1f85e92a
 Filename: debs/com.vlesscore.app_iphoneos-arm.deb
 
 Package: com.yourepo.1rol4k21337.telegram
@@ -1505,52 +1505,6 @@ Section: System
 MD5sum: 1d5dba6d9bb8680a062bffef02ad47cc
 Size: 10746
 Filename: debs/com.iosvidocum.kDFUBundles_1.0.1_iphoneos-arm.deb
-
-Package: com.iosvidocum.kloader
-Name: kloader
-Version: 1.0
-Section: System
-Depends: firmware (>= 6.0)
-Conflicts: cy+cpu.arm64
-Description: Don't install if you don't know what that is
-	Do not install this package if you don't know what this is.
-	Installing this on a production device is not recommended.
-Priority: optional
-Architecture: iphoneos-arm
-Author: winocm, xerub
-Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
-Maintainer: tihmstar
-MD5sum: ea63d38d4ad6ac2e37171b1288a0669a
-Size: 8002
-Filename: debs/com.iosvidocum.kloader_1.0_iphoneos-arm.deb
-
-Package: com.iosvidocum.libcrippy-1.0.0
-Name: libcrippy-1.0.0
-Version: 1.0
-Section: Development
-Depends: firmware (>= 6.0)
-Priority: optional
-Architecture: iphoneos-arm
-Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
-Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
-Maintainer: tihmstar
-MD5sum: 195eac2e87fedbcef86439bf604d62b4
-Size: 15888
-Filename: debs/com.iosvidocum.libcrippy-1.0.0_1.0_iphoneos-arm.deb
-
-Package: com.iosvidocum.libpartialzip-1.0.0
-Name: libpartialzip-1.0.0
-Version: 1.0
-Section: Development
-Depends: firmware (>= 6.0), libcrippy-1.0.0
-Priority: optional
-Architecture: iphoneos-arm
-Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
-Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
-Maintainer: tihmstar
-MD5sum: 18c31ba13a8113b8b1dc71b07d952a05
-Size: 6864
-Filename: debs/com.iosvidocum.libpartialzip-1.0.0_1.0_iphoneos-arm.deb
 
 Package: com.iosvidocum.kDFUApp
 Name: kDFUApp

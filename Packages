@@ -1,3 +1,21 @@
+Package: com.koutsie.witch
+Name: witch
+Depends: firmware (>= 6.1.3), firmware (<= 10.3.3)
+Description: A magical Twitch client for iOS 6-10.
+Maintainer: Koutsie <contact@the-sauna.icu>
+Author: Koutsie
+Section: Applications
+Homepage: https://koutsie.srht.site/
+Architecture: iphoneos-arm
+Version: 1.1.60
+Installed-Size: 2780
+Depiction: https://koutsie.srht.site/depictions/com.koutsie.witch.html
+Filename: debs/com.koutsie.witch_1.1.60_iphoneos-arm.deb
+Size: 1247400
+MD5sum: b8d8a5264495379b990004edeabb2717
+SHA1: 521f8ccf59bb890e53944779973a49d60869153e
+SHA256: b7649ad4abd3e6b674606bf6649e6cf8800ece13603d2607294780cf5eb63470
+
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified

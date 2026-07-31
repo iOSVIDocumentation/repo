@@ -1,3 +1,17 @@
+Package: com.senko.daemon
+Name: Senko
+Version: 1.0.4-stable
+Architecture: iphoneos-arm
+Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
+Maintainer: sqmrak
+Author: sqmrak
+Section: Networking
+Priority: optional
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/senko-v1.0.4-stable.deb
+Size: 8067644
+MD5sum: 8f672adfc8261bc9b6a215454c1c3a8f
+
 Package: com.koutsie.witch
 Name: witch
 Depends: firmware (>= 6.1.3), firmware (<= 10.3.3)

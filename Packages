@@ -1,3 +1,43 @@
+Author: Joe Jordan <nitrous@joedj.net>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Nitrous
+Package: com.iosvidocum.nitrous
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Breaks: io.pangu.xuanyuansword8 (<< 0.2)
+Section: Tweaks
+Installed-Size: 278
+Version: 2.5-5
+Architecture: iphoneos-arm
+Description: Give JavaScript a speed boost with Nitro
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: joejordan
+Tag: purpose::extension, role::enduser, ios7support::1, ios8support::1
+Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
+Size: 170442
+Filename: debs/com.iosvidocum.nitrous_2.5-5_iphoneos-arm.deb
+MD5sum: 16398924a37c4643682b6ad56541a485
+
+Package: net.angelxwind.preferenceorganizer2
+Name: PreferenceOrganizer 2
+Architecture: iphoneos-arm
+Description: Organises your Preferences app into several configurable categories for ease of navigation.
+Homepage: https://cydia.akemi.ai/
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.preferenceorganizer2
+Author: Karen/あけみ <karen@akemi.ai>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
+Conflicts: com.phillipt.noappsettings, jp.r-plus.cloaky, me.qusic.preferenceorganizer, com.sull.preferenceorganizer, com.sull.preferenceorganizer2, com.sull.preferenceorganizer7
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
+Version: 4.0.8
+Installed-Size: 2016
+Size: 1389558
+MD5sum: b4677faf3fe036219dd99404c15c0c33
+Filename: debs/net.angelxwind.preferenceorganizer2_4.0.8.deb
+
 Package: com.senko.daemon
 Name: Senko
 Version: 1.0.4-stable

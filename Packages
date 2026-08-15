@@ -40,7 +40,7 @@ Filename: debs/net.angelxwind.preferenceorganizer2_4.0.8.deb
 
 Package: com.senko.daemon
 Name: Senko
-Version: 1.0.4-stable
+Version: 1.0.6-stable
 Architecture: iphoneos-arm
 Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
 Maintainer: sqmrak
@@ -48,9 +48,9 @@ Author: sqmrak
 Section: Networking
 Priority: optional
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/senko-v1.0.4-stable.deb
-Size: 8067644
-MD5sum: 8f672adfc8261bc9b6a215454c1c3a8f
+Filename: debs/senko-v1.0.6-stable.deb
+Size: 8076568
+MD5sum: f46cc6ba69ed895321cff8575459d64c
 
 Package: com.koutsie.witch
 Name: witch
@@ -1173,18 +1173,18 @@ Package: com.iosvidocum.displayrecorder
 Name: Display Recorder
 Architecture: iphoneos-arm
 Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Depiction: http://rpetri.ch/cydia/displayrecorder/
+Website: http://rpetri.ch/cydia/displayrecorder/
 Maintainer: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
 Author: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.9), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
 Section: System
 dev: rpetrich
-Version: 1.3.22~beta1
-Installed-Size: 2492
-Filename: debs/com.iosvidocum.displayrecorder_v1.3.22~beta1.deb
-MD5sum: d708c55e0df34dee5919c7f723bb8077
-SHA1: 58381dd22a1cc7762eda401933ae0744e0e97322
-SHA256: fff3e9cc3a4d40973aca9dbd15a5aebfc657b794d75d9915e58ba0b673837403
-Size: 912300
+Version: 1.3.20
+Installed-Size: 2508
+Filename: debs/com.iosvidocum.displayrecorder_1.3.20_iphoneos-arm.deb
+MD5sum: 06a7300fc8ab3a49e5eefb9f6a4caf40
+Size: 918426
 
 Package: com.rpetrich.emphasize
 Name: Emphasize
@@ -1457,7 +1457,7 @@ Name: PinterestX for iOS 6+
 
 Package: com.vlesscore.app
 Name: vless-core
-Version: 0.4.3-1
+Version: 0.4.4-1
 Architecture: iphoneos-arm
 Description: Full-device VLESS routing app
 Maintainer: notfence
@@ -1465,8 +1465,8 @@ Author: notfence
 Section: Networking
 Priority: optional
 Depends: firmware (>= 6.0)
-Size: 5470700
-MD5sum: 480c49aeaf8e1d8bb81e9e755fbd3651
+Size: 5479444
+MD5sum: 43ae5000c30665fdb2746367fcf7afb3
 Filename: debs/com.vlesscore.app_iphoneos-arm.deb
 
 Package: com.yourepo.1rol4k21337.telegram

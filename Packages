@@ -59,7 +59,7 @@ MD5sum: d6a31911e878b83e47c6525fa29ecef1
 
 Package: com.senko.daemon
 Name: Senko
-Version: 1.0.6-stable
+Version: 1.0.7-stable
 Architecture: iphoneos-arm
 Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
 Maintainer: sqmrak
@@ -67,9 +67,9 @@ Author: sqmrak
 Section: Networking
 Priority: optional
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/senko-v1.0.6-stable.deb
-Size: 8076568
-MD5sum: f46cc6ba69ed895321cff8575459d64c
+Filename: debs/senko-v1.0.7-stable.deb
+Size: 8083494
+MD5sum: 1a95594d3badec611a6678b5345f795f
 
 Package: com.koutsie.witch
 Name: witch
@@ -1476,7 +1476,7 @@ Name: PinterestX for iOS 6+
 
 Package: com.vlesscore.app
 Name: vless-core
-Version: 0.4.4-1
+Version: 0.5.0-1
 Architecture: iphoneos-arm
 Description: Full-device VLESS routing app
 Maintainer: notfence
@@ -1484,8 +1484,8 @@ Author: notfence
 Section: Networking
 Priority: optional
 Depends: firmware (>= 6.0)
-Size: 5479444
-MD5sum: 43ae5000c30665fdb2746367fcf7afb3
+MD5sum: 00141fddda17dce6ec3ee54372a246bf
+Size: 5519726
 Filename: debs/com.vlesscore.app_iphoneos-arm.deb
 
 Package: com.yourepo.1rol4k21337.telegram

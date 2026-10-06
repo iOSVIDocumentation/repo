@@ -1443,16 +1443,16 @@ Name: PinterestX for iOS 6+
 
 Package: com.vlesscore.app
 Name: vless-core
-Version: 0.6.1-1
+Version: 0.6.3-1
 Architecture: iphoneos-arm
 Description: Full-device VLESS routing app
 Maintainer: notfence
 Author: notfence
 Section: Networking
 Priority: optional
-Depends: firmware (>= 6.0)
-MD5sum: 7a826a917d39388aa93dd2a3b6722ff7
-Size: 10994880
+Depends: firmware (>= 5.0)
+MD5sum: fffb0b8c6d85bf5d1c110d1c8c922380
+Size: 11037780
 Filename: debs/com.vlesscore.app_iphoneos-arm.deb
 
 Package: com.iosvidocum.ifile

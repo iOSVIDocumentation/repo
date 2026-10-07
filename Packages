@@ -38,6 +38,25 @@ Size: 1389558
 MD5sum: b4677faf3fe036219dd99404c15c0c33
 Filename: debs/net.angelxwind.preferenceorganizer2_4.0.8.deb
 
+Package: com.myrepospace.p1neapple.zephyr
+Name: Zephyr
+Section: BYA Apps
+Version: 1.6.4-1
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), repo.biteyourapple.net.multicleaner, repo.biteyourapple.net.zephyr
+Architecture: iphoneos-arm
+Description: Awesome swipe multitasking and gestures!
+Depiction: http://www.biteyourapple.net/depiction/dep.php?name=zephyr
+Homepage: http://www.biteyourapple.net
+Author: BYA Repository
+Maintainer: Redenfire <redenfire@gmail.com>
+Sponsor: biteyourapple <http://www.biteyourapple.net>
+Installed-Size: 112
+Size: 44614
+Filename: debs/zephyr_1.6.4-1_iphoneos-arm.deb
+MD5sum: 6e62a3c506ff9cd58f07e1e7df683ae5
+
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified

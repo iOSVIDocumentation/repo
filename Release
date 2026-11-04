@@ -1,8 +1,21 @@
 Origin: iOS VI Documentation
 Label: iOS VI Documentation
-Suite: stable 
-Version: 1.0 
-Codename: ios 
-Architectures: iphoneos-arm 
-Components: main 
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
 Description: archive tweaks
+Date: Wed, 04 Nov 2026 06:30:33 +0000
+MD5Sum:
+ 011423868b2f8dc6ee1e18bbfc932512            74436 Packages
+ db1dee196cb86e2b6c0cc30a7989e04d            19529 Packages.gz
+ 4971cd43cf83c67d03949d9d7f8d8609            17979 Packages.bz2
+SHA1:
+ 75c8df05db54d12be09e2774f002665f0096f917            74436 Packages
+ 5b157903ba8719cef08cf472cff4abacf1e2332f            19529 Packages.gz
+ e4ebe48c64b4b8d597a4bf8ac0324faf0b2369f0            17979 Packages.bz2
+SHA256:
+ b358468032467fe34c6f57e5538bd47c25e5480bed38459cb29e546df8402e85            74436 Packages
+ 393c93a0df20c7b6e571f1d17f15b7cc0d5ffe99d390bb7e7a78dc1258d3b43d            19529 Packages.gz
+ fe7e6cbc76bb986bff5792679e9e101ea9861beac92ff1e0686e85aaba660612            17979 Packages.bz2

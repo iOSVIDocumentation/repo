@@ -1,182 +1,131 @@
-Author: Joe Jordan <nitrous@joedj.net>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: Nitrous
-Package: com.iosvidocum.nitrous
-Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
-Breaks: io.pangu.xuanyuansword8 (<< 0.2)
-Section: Tweaks
-Installed-Size: 278
-Version: 2.5-5
-Architecture: iphoneos-arm
-Description: Give JavaScript a speed boost with Nitro
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: joejordan
-Tag: purpose::extension, role::enduser, ios7support::1, ios8support::1
-Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
-Size: 170442
-Filename: debs/com.iosvidocum.nitrous_2.5-5_iphoneos-arm.deb
-MD5sum: 16398924a37c4643682b6ad56541a485
-
-Package: net.angelxwind.preferenceorganizer2
-Name: PreferenceOrganizer 2
-Architecture: iphoneos-arm
-Description: Organises your Preferences app into several configurable categories for ease of navigation.
-Homepage: https://cydia.akemi.ai/
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.preferenceorganizer2
-Author: Karen/あけみ <karen@akemi.ai>
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
-Conflicts: com.phillipt.noappsettings, jp.r-plus.cloaky, me.qusic.preferenceorganizer, com.sull.preferenceorganizer, com.sull.preferenceorganizer2, com.sull.preferenceorganizer7
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
-Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
-Version: 4.0.8
-Installed-Size: 2016
-Size: 1389558
-MD5sum: b4677faf3fe036219dd99404c15c0c33
-Filename: debs/net.angelxwind.preferenceorganizer2_4.0.8.deb
-
-Package: com.myrepospace.p1neapple.zephyr
-Name: Zephyr
-Section: BYA Apps
-Version: 1.6.4-1
-Pre-Depends: firmware (>= 5.0)
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
-Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), repo.biteyourapple.net.multicleaner, repo.biteyourapple.net.zephyr
-Architecture: iphoneos-arm
-Description: Awesome swipe multitasking and gestures!
-Depiction: http://www.biteyourapple.net/depiction/dep.php?name=zephyr
-Homepage: http://www.biteyourapple.net
-Author: BYA Repository
-Maintainer: Redenfire <redenfire@gmail.com>
-Sponsor: biteyourapple <http://www.biteyourapple.net>
-Installed-Size: 112
-Size: 44614
-Filename: debs/zephyr_1.6.4-1_iphoneos-arm.deb
-MD5sum: 6e62a3c506ff9cd58f07e1e7df683ae5
-
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Homepage: https://cydia.akemi.ai/
-Provides: appsync, net.angelxwind.appsyncunified
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Package: ai.akemi.appsyncunified
-Name: AppSync Unified
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Section: Tweaks
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Architecture: iphoneos-arm64
 Version: 116.0
-Installed-Size: 668
-Size: 9472
-Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
-MD5sum: d6a31911e878b83e47c6525fa29ecef1
-
-Package: com.senko.daemon
-Name: Senko
-Version: 2.0.0-stable
-Architecture: all
-Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-15 (armv7 + arm64)
-Maintainer: sqmrak
-Author: sqmrak
-Section: Networking
-Priority: optional
-Depends: firmware (>= 5.0)
-Filename: debs/senko-v2.0.0-stable.deb
-Size: 19403464
-MD5sum: 922f1cb12c26caa052de2dd20d07f783
-
-Package: com.koutsie.witch
-Name: witch
-Depends: firmware (>= 6.1.3), firmware (<= 10.3.3)
-Description: A magical Twitch client for iOS 6-10.
-Maintainer: Koutsie <contact@the-sauna.icu>
-Author: Koutsie
-Section: Applications
-Homepage: https://koutsie.srht.site/
-Architecture: iphoneos-arm
-Version: 1.1.60
-Installed-Size: 2780
-Depiction: https://koutsie.srht.site/depictions/com.koutsie.witch.html
-Filename: debs/com.koutsie.witch_1.1.60_iphoneos-arm.deb
-Size: 1247400
-MD5sum: b8d8a5264495379b990004edeabb2717
-SHA1: 521f8ccf59bb890e53944779973a49d60869153e
-SHA256: b7649ad4abd3e6b674606bf6649e6cf8800ece13603d2607294780cf5eb63470
-
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Architecture: iphoneos-arm64
 Maintainer: Karen/あけみ <karen@akemi.ai>
-Homepage: https://cydia.akemi.ai/
-Provides: appsync, net.angelxwind.appsyncunified
+Installed-Size: 668
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Package: com.iosvidocum.appsyncunified
-Name: AppSync Unified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 49472
+MD5sum: d6a31911e878b83e47c6525fa29ecef1
+SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
+SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Section: Tweaks
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Architecture: iphoneos-arm
-Version: 116.2
-Installed-Size: 636
-Size: 78234
-MD5sum: ee3881fcde03b6cfcc540724e0ef141f
-Filename: debs/com.iosvidocum.appsyncunified_116.2_iphoneos-arm.deb
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
 
-Package: com.iosvidocum.harlem
-Depends: firmware(>= 6.0), mobilesubstrate, libactivator
-Name: Harlem Shake
-Version: 1.0-1
+Package: bag.skyglow.bluetweety
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Springboard Harlem Shake!
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: FilippoBiga <filippobiga.dev@gmail.com>
+Maintainer: Requis, bag.xml
+Installed-Size: 948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
+Size: 111010
+MD5sum: f32c4f1b3f728762ccb997ef62e4656e
+SHA1: 24d850223ca9966304324344d5c33164bc237c1e
+SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
 Section: Tweaks
-dev: filippobiga
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
-Installed-Size: 502
-Tag: purpose::extension
-Filename: debs/com.iosvidocum.harlem_1.0-1_iphoneos-arm.deb
-Size: 495272
-MD5sum: fa76eda26aaad83502b9ef262526a01e
+Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
+Author: Requis, bag.xml
+Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
+Name: BlueTweety
 
-Package: com.iosvidocum.localiapstore
+Package: bag.xml.tuberepair
+Version: 1.0-Beta-1
 Architecture: iphoneos-arm
-Name: LocalIAPStore
-Version: 1.4-1
-Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
-Author: anondev
+Maintainer: bag.xml, Requis
+Installed-Size: 568
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.0-Beta-1_iphoneos-arm.deb
+Size: 125684
+MD5sum: 6bea6b3f594d8b6374b2334595b79098
+SHA1: fda1964216cb67a1d75526daa7f10ccab25bbc13
+SHA256: ac457a661dd8ddc785e1ab3ff0b3d2b7af9a0dff09e39e4e6979a194500bdcac
 Section: Tweaks
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Size: 71058
-Maintainer: iOS VI Documentation
-Md5sum: 57d35fad521b09ee29152383cd1fae9c
-SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
-Filename: debs/com.iosvidocum.localiapstore_1.4-1_iphoneos-arm.deb
+Description: TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
 
-Package: com.iosvidocum.fullforce
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Package: bag.xml.tuberepair
+Version: 1.0-Beta-2
 Architecture: iphoneos-arm
-Depends: firmware (>= 3.2), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cy+model.ipad | gsc.ipad | gsc.wildcat, cydia (>= 1.1.1)
-Description: Force applications to show in iPad mode
-Name: FullForce
-Homepage: http://rpetri.ch/cydia/fullforce/
-Depiction: http://rpetri.ch/cydia/fullforce/
-Author: Ryan Petrich <rpetrich@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: rpetrich
-Tag: purpose::extension
-Version: 1.3.6
-Installed-Size: 136
-Filename: debs/com.iosvidocum.fullforce_1.3.6_iphoneos-arm.deb
-Size: 30068
-MD5sum: 49f448e87cd713d9c2fe276dc836aaa0
+Maintainer: bag.xml, Requis
+Installed-Size: 360
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.0-Beta-2_iphoneos-arm.deb
+Size: 112372
+MD5sum: 7980faa2ee5ce03e934ca73dccc6d082
+SHA1: 3abb55c61184ebccb077b2bd3e690c2a7236624a
+SHA256: 8dc0fb828a3a854832f5fbcf6b7e8cdc34db6a18428fd1bb824c871daa62be10
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.1-Beta-1
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 152
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.1-Beta-1_iphoneos-arm.deb
+Size: 101590
+MD5sum: 0327b6b664d0aa4e995711d97b4f9d87
+SHA1: 63cd39d5a35083aefc4c29c5cba374b7c179118b
+SHA256: 473e78c61932d149c35c105fbcad00145314cc9b668ce207745ae6dc7596df59
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.1-Beta-2
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
+Size: 101918
+MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
+SHA1: 2ccb6f9877e86a38c59b55c97f529beb37ebe866
+SHA256: a0728c4753df3625d847ba79c5128123020698f5c22f1890a2eb1b9da659727e
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.2-Beta-1
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Size: 97368
+MD5sum: 9838724bcbd0d04e44a62c31baf2f182
+SHA1: af42f56aab86f98fad9b4a8503808a4490db7e0e
+SHA256: cad60e92e89b067cc8c605c3975210122a2129ccab907244d298cdd02da962dd
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
 
 Package: ca.adrien.appdrop
 Version: 1.4
@@ -184,7 +133,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien
 Installed-Size: 48524
 Depends: firmware (>= 6.0), com.linusyang.appsync
-Filename: ./debs/ca.adrien.appdrop_1.4_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_1.4_iphoneos-arm.deb
 Size: 8782136
 MD5sum: fa30d9ea99530b4c2296209938b94fe5
 SHA1: d301f42132ba618569631b5265b29d7524553ff7
@@ -203,7 +152,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien
 Installed-Size: 48628
 Depends: firmware (>= 6.0), net.angelxwind.appsyncunified | com.linusyang.appsync
-Filename: ./debs/ca.adrien.appdrop_1.4-5_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_1.4-5_iphoneos-arm.deb
 Size: 8792586
 MD5sum: 916d235fc37a94aa91e5e9e2b06e62ab
 SHA1: 9cf76a29fdc85f01d8e8fec74e029ae72001d3d7
@@ -222,7 +171,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien
 Installed-Size: 48628
 Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync
-Filename: ./debs/ca.adrien.appdrop_1.5_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_1.5_iphoneos-arm.deb
 Size: 8799010
 MD5sum: cc4cf37caadbff7d98ce180e181fd3f2
 SHA1: 477f9ed9ede0e3fefa74d336579224681b6c03ca
@@ -241,7 +190,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 48376
 Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_1.5-19_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_1.5-19_iphoneos-arm.deb
 Size: 8498918
 MD5sum: f20695b9e0e901417f0452f087e072cb
 SHA1: 6189f60cb733f7d9f7dcee7f56a88836ec86b30d
@@ -261,7 +210,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2428
 Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_2.0_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_2.0_iphoneos-arm.deb
 Size: 1322052
 MD5sum: c05db076535bd1bf6a3e9dbdcac7880b
 SHA1: 71213b4f8dc60a69b900ed6b3cd3df1b505c5a0f
@@ -281,7 +230,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2048
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.0_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.0_iphoneos-arm.deb
 Size: 786706
 MD5sum: c072b7e862d5413470fd09fb6ffae079
 SHA1: 36a93ab13e9d280986c8a4fd19233e3954343d3f
@@ -301,7 +250,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2160
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.1_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.1_iphoneos-arm.deb
 Size: 818076
 MD5sum: 0ff8f423223a8fd4b08909bbc2c47ab9
 SHA1: 9e3133dbdca90f2e0ab023cef7fcb10ceeaabd7c
@@ -321,7 +270,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2164
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.1.1_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.1.1_iphoneos-arm.deb
 Size: 821310
 MD5sum: 940eee52c5bf8e41c99c4b3eabd221b7
 SHA1: f3dbf6916cd4fa3f10089a3e859f9096207550c1
@@ -341,7 +290,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2180
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.1.2_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.1.2_iphoneos-arm.deb
 Size: 824482
 MD5sum: 27608db8183f93a2808f66af2d04a4a5
 SHA1: 355dfb05c3d8c7dd730d82c208633d650bfe2384
@@ -361,7 +310,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 2072
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.1.3_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.1.3_iphoneos-arm.deb
 Size: 759002
 MD5sum: 1e914fddea0290d87b1dd104214ea276
 SHA1: 73c35c328b49f1c3943b4ac9534c92f555144f2a
@@ -381,7 +330,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 89
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.1.4_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.1.4_iphoneos-arm.deb
 Size: 721876
 MD5sum: 7a87e185fc381f1e860787d1354feafc
 SHA1: 12ac2f79563ffbf0db3d78d9a632b1a6ae0b6c0c
@@ -401,7 +350,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 89
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.2_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.2_iphoneos-arm.deb
 Size: 731202
 MD5sum: f82ae36eb0c9de82d52a6dcedbb425bb
 SHA1: d2ef8f5ad6bc3dc1b473963a9eb33ecd8b3dca86
@@ -421,7 +370,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 805
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.2.0.1_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.2.0.1_iphoneos-arm.deb
 Size: 731896
 MD5sum: 4a7675fc49b2610d286e571f6a999721
 SHA1: afa72cc9e698e6eb1b3583531dd3cb70fdc6578d
@@ -441,7 +390,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 89
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.2.0.2_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.2.0.2_iphoneos-arm.deb
 Size: 732002
 MD5sum: 2fdee241d0131b17e58343baca2733c6
 SHA1: 947d34263062c71046f449c60a89fde65bab9457
@@ -461,7 +410,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 89
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.2.0.3_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.2.0.3_iphoneos-arm.deb
 Size: 732556
 MD5sum: 5ce916c40f9dac3596fa5b9f5275dc95
 SHA1: fa4b41f432a079f99b2ff8264f6a751761e96d8d
@@ -481,7 +430,7 @@ Architecture: iphoneos-arm
 Maintainer: Adrien Ruest-Lorquet
 Installed-Size: 89
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
-Filename: ./debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+Filename: debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
 Size: 735540
 MD5sum: 65688157bcf12461d451e65c59e88c27
 SHA1: 9dfb30345d4436502135edf73fac7714e3797918
@@ -494,47 +443,140 @@ Author: Adrien Ruest-Lorquet
 Depiction: https://adrienrl1.github.io/cydia/depiction.html
 Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
 Name: AppDrop
-Package: com.iosvidocum.cardswitcher-app
-Version: 2.0-1
-Priority: optional
-Section: Tweaks
-Maintainer: iOS VI Documentation
-Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
-Architecture: iphoneos-arm
-Filename: debs/com.iosvidocum.cardswitcher-app_2.0-1_iphoneos-arm.deb
-Size: 84790
-MD5sum: 4e111f269e22b4aa537bff74cc30682e
-SHA256: 7370544fe88fbee58e4f9320bf12f821ef803c3689c3ec5c7c94db18ee5afbe4
-Name: CardSwitcher
-Description: idk
-Sponsor: iKy1e (Kyle Howells)
-Author: vibez <mr.vibez@gmail.com>
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cardswitcherData
-dev: iKy1e (Kyle Howells)
-homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cardswitcherData
 
-Package: org.iosvidocum.audioout
-Version: 1.4.0-7
-Priority: optional
-Section: Tweaks
-Maintainer: iOS VI Documentation
-Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Package: com.aoi.storefix
+Version: 1.0-7
 Architecture: iphoneos-arm
-Filename: debs/org.iosvidocum.audioout_1.4.0-7_iphoneos-arm.deb
-Size: 411968
-Installed-Size: 3012
-MD5sum: 57e818822dabfc55e4ce5f3cedbe8940
-SHA256: 42f0a32cc13c77d75d123b76485de87ebd90d017ae177269a8790128a21d9ca1
-Name: AudioOut
-Icon: file:///Library/PreferenceBundles/AudioOutPrefs.bundle/AudioOutPrefs@2x.png
-Description: download cydown before donloading!
+Maintainer: satou@aoiblog.jp
+Depends: firmware  (<= 6.1.6) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts: com.aoi.storefix
+Filename: debs/com.aoi.storefix_1.0-7_iphoneos-arm.deb
+Size: 1512
+MD5sum: c3182d4dc9df2c63fe4ec44c6a9949b5
+SHA1: 123cbd1cb54b56e4032f45b30543a0a4156951dd
+SHA256: da5aaca8b0ca06ded50cc6fc975304972fc93a4efb309ba8e33da69ad4e73866
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Depiction: http://aoiblog.jp/appstorefix_history2.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.example.darkos6
+Version: 0.0.35
+Architecture: iphoneos-arm
+Maintainer: @iOS_VI_Documentation
+Installed-Size: 292
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
+Recommends: preferenceloader
+Filename: debs/com.example.darkos6_0.0.35_iphoneos-arm.deb
+Size: 83654
+MD5sum: 5c4a5c8875654c17c581fedab68b12e4
+SHA1: e6199e07b39c9b3390ff170c26d6131098e27b8a
+SHA256: 398cc16587d08b50a1f839a08babde062cc99ee6a1baaeab65e1f50cb0a7bcd9
+Section: Tweaks
+Description: Global dark mode for classic iOS 6 (6.0 - 6.1.6).
+ Complete dark theme experience preserving authentic skeuomorphism.
+ .
+ Features:
+ * Dark theme for system and third-party apps
+ * Authentic iOS 6 textures, bevels, and gradients
+ * SpringBoard icon and folder tinting (including Newsstand)
+ * Day / Night automatic scheduling
+ * Intensity slider and per-app toggle in Settings
+ .
+ Configuration: Settings -> DarkOS6
+ Disabled by default upon installation.
+ .
+ Developers: @iOS_VI_Documentation, @cmplog
+ Testers: @Survival_on_iOS_6, @kitalev, @notfence_dev
+Author: DarkOS6 Team (@iOS_VI_Documentation, @cmplog)
+Name: DarkOS6
+
+Package: com.filippobiga.harlem
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 502
+Depends: firmware(>= 6.0), mobilesubstrate, libactivator
+Filename: debs/com.flipobigga.harlemshake_1.0-1_iphoneos-arm.deb
+Size: 494356
+MD5sum: e542a6fd4e6323c449d5096987b545e5
+SHA1: 70beac3be4c27af321e5264795cfb8ce1d294212
+SHA256: 32c84209473c9e1b867114368d23d64efc923c949e9f4cc264f75a08ea3c2a21
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Description: Springboard Harlem Shake!
+Tag: purpose::extension
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Dev: filippobiga
+Name: Harlem Shake
+
+Package: com.filippobiga.springtomize2-icons
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 88
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: debs/springtomize2-icons_1.0-1.deb
+Size: 68014
+MD5sum: d59a046a55fc34d7baee571ff99f7bee
+SHA1: d9bb1599c6065237c3e211996386b588939d149d
+SHA256: 96154dce09c2d93ff1d0ef10e3bdcddb3f01304c1a25b0f2eadfb416d68bf52f
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Settings Icons for Springtomize2
+Tag: role::developer
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Icons
 Sponsor: thebigboss.org <http://thebigboss.org>
-Author: vibez <mr.vibez@gmail.com>
-Tag: purpose::extension, ios7support::1, ios8support::
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
-dev: vibez
-homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
 
+Package: com.filippobiga.springtomize2-localizations
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 222
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: debs/springtomize2-localizations_1.0.1.deb
+Size: 56800
+MD5sum: f2392d0ec872bbf2f797f83ea2b6e076
+SHA1: df7f85514ce0501745ba647d9345d93e58a9f3b9
+SHA256: c48dd5d2a855b1df70cebadabdefb1eecd2c21875a5d802b0af3f0081270dd9d
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Localizations for Springtomize2
+Tag: role::developer
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Localizations
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.hackyouriphone.icloudbypassfixer
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader
+Filename: debs/com.hackyouriphone.icloudbypassfixer_1.0_iphoneos-arm.deb
+Size: 17860
+MD5sum: d2eae59f78b278aad78eeff9e8aa2d04
+SHA1: eb197a7bf797c83026c37dc4b8bdc24bc9232456
+SHA256: 0381fb67426e3249d6ac610c5603ccf2b772d4b95848d0e3fa2ffd251f903d81
+Section: Tweaks (HYI)
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icloudbypassfixer
+Description: Fix your iPhone Bypass iOS 13
+Author: DPKGHUB <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icloudbypassfixer
+Name: iCloud Bypass Fixer
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=icloudbypassfixer
 
 Package: com.iosvidocum.afc2d
 Version: 1.2
@@ -548,334 +590,335 @@ Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc
 Filename: debs/com.iosvidocum.afc2d_1.2_iphoneos-arm.deb
 Size: 18136
 MD5sum: c16c8fc3752694469574445d899fa79f
+SHA1: c5b76fa6888f6a62e4822528c631c0f03f4782ec
+SHA256: f60df3037fc030a33382718fdcc280a41b7d61035a89a45dc0cc784cc7aeb350
 Section: System
 Priority: optional
 Description: allow full file-system access over USB
 Tag: purpose::daemon, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://cydia.saurik.com/info/com.saurik.afc2d/
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
 Name: Apple File Conduit "2"
 
-Package: com.yourepo.dinamit.auxo
+Package: com.iosvidocum.appdrop
+Version: 2.0
 Architecture: iphoneos-arm
-Name: Auxo
-Version: 1.4-2
-Description: A fantastic re-imagined multitasking bar!
-Author: A3tweaks <A3tweaks@gmail.com>
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 2428
+Depends: firmware (>= 5.0), net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: debs/com.iosvidocum.appdrop_2.0_iphoneos-arm.deb
+Size: 1563102
+MD5sum: 5fdc91a8d8130ad555f72d0bd957d882
+SHA1: d057bc0e1be700164332b7faf7d71e1af5740560
+SHA256: 92a956304c4cdb73f8c1ff46a22d98da84924e798175e4608690fe4c95c172d1
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse, search and install vintage iOS apps (iOS 5-10 era) from the IPA Archive (157k apps). Grounded AI assistant, device-aware suggestions, multilingual.
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: com.iosvidocum.appsyncunified
+Version: 116.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/com.iosvidocum.appsyncunified_116.2_iphoneos-arm.deb
+Size: 78234
+MD5sum: ee3881fcde03b6cfcc540724e0ef141f
+SHA1: 47fcbff376e7d81381890d3ca765b5a1d2899c95
+SHA256: 9478de65326c986309d1ca4f85b6e9c605bb48c13268e98b532656545b29da4f
 Section: Tweaks
-Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
-Size: 1818268
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: com.iosvidocum.cardswitcher-app
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: repo@xsellize.com
+Installed-Size: 158
+Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
+Filename: debs/com.iosvidocum.cardswitcher-app_2.0-1_iphoneos-arm.deb
+Size: 84790
+MD5sum: 4e111f269e22b4aa537bff74cc30682e
+SHA1: d77fabe700ce6116431054af548c682d46e7bc8f
+SHA256: 7370544fe88fbee58e4f9320bf12f821ef803c3689c3ec5c7c94db18ee5afbe4
+Section: X Apps
+Homepage: http://apt.xsellize.com/depic/cardswitcher-app
+Description: graphical cards based multitasking UI
+Author: repo@xsellize.com
+Depiction: http://apt.xsellize.com/depic/cardswitcher-app
+Name: CardSwitcher
+Sponsor: http://xsellize.com
+
+Package: com.iosvidocum.displayrecorder
+Version: 1.3.20
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
+Installed-Size: 2508
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Filename: debs/com.iosvidocum.displayrecorder_1.3.20_iphoneos-arm.deb
+Size: 918426
+MD5sum: 06a7300fc8ab3a49e5eefb9f6a4caf40
+SHA1: f6d030d057f4d2d2ffb360c0015b8456b604b981
+SHA256: 92e46f16e7cd6a164c690eeb23969881b458bad04118a72f612b21ef00b15b86
+Section: System
+Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Author: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
+Depiction: http://rpetri.ch/cydia/displayrecorder/
+Dev: rpetrich
+Name: Display Recorder
+Website: http://rpetri.ch/cydia/displayrecorder/
+
+Package: com.iosvidocum.displayrecorder
+Version: 1.3.22~beta1
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
+Installed-Size: 2492
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.9), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Filename: debs/com.iosvidocum.displayrecorder_1.3.22~beta1_iphoneos-arm.deb
+Size: 912300
+MD5sum: d708c55e0df34dee5919c7f723bb8077
+SHA1: 58381dd22a1cc7762eda401933ae0744e0e97322
+SHA256: fff3e9cc3a4d40973aca9dbd15a5aebfc657b794d75d9915e58ba0b673837403
+Section: System
+Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Author: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
+Depiction: http://rpetri.ch/cydia/displayrecorder/
+Dev: rpetrich
+Name: Display Recorder
+Website: http://rpetri.ch/cydia/displayrecorder/
+
+Package: com.iosvidocum.fullforce
+Version: 1.3.6
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Md5sum: da0251ab6e4cd63bdf939fbc675e30cb
-SHA256: 50f43562012fb5bd6f8fcd42ce858379f6dea60121f91082417187d5bab2513d
-Depiction:
-SileoDepiction:
-Filename: debs/com.yourepo.dinamit.auxo_1.4-2_iphoneos-arm.deb
-Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
-
-Package: com.yourepo.broadway.cydown
-Architecture: iphoneos-arm
-Name: CyDown
-Version: 6.0.6
-Description: Install paid packages for Free in Cydia!
-Author: julioverne <broadway219thebest@gmail.com>
+Installed-Size: 136
+Depends: firmware (>= 3.2), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cy+model.ipad | gsc.ipad | gsc.wildcat, cydia (>= 1.1.1)
+Filename: debs/com.iosvidocum.fullforce_1.3.6_iphoneos-arm.deb
+Size: 30068
+MD5sum: 49f448e87cd713d9c2fe276dc836aaa0
+SHA1: 5cfe4139d65c66a5141f61fc32fd673ff7adeadd
+SHA256: b15ae0cad5b78b1cf4dea9807073929c8aad7a41454be28da126d454f7c05d0e
 Section: Tweaks
-Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
-Size: 439620
-Maintainer: broadway <broadway219thebest@gmail.com>
-Md5sum: 726c4a0eb4050f669430b0b87b336476
-SHA256: 51ff79b9c7c763bab568108800783fa2ada180d80d9b5f1738532066d67017dd
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.yourepo.broadway.cydown_6.0.6_iphoneos-arm.deb
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Homepage: http://rpetri.ch/cydia/fullforce/
+Description: Force applications to show in iPad mode
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/fullforce/
+Dev: rpetrich
+Name: FullForce
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: uk.invoxiplaygames.simalertsuppression
-Version: 1.0
+Package: com.iosvidocum.harlem
+Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 132
-Depends: mobilesubstrate, firmware (>=5.0)
-Conflicts: uk.invoxiplaygames.letmestealinpeace
-Filename: debs/simalertsuppression-1.0.deb
-Size: 2810
-MD5sum: 93cd24e6c82108068e54435453587ac4
-SHA1: 9eff439f4635d83fffbd9565ca926612d08f2bf9
-SHA256: 4f6fb6fc8743d1f1902513fcda5ba96c3cb189a4fe550b735262e268e78baab4
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 502
+Depends: firmware(>= 6.0), mobilesubstrate, libactivator
+Filename: debs/com.iosvidocum.harlem_1.0-1_iphoneos-arm.deb
+Size: 495272
+MD5sum: fa76eda26aaad83502b9ef262526a01e
+SHA1: bd36bcab8e9a150a5f46ece8003058acb05c68b1
+SHA256: 3a9883fc2c74dcb4a4133bf0b64397281d089b830c492f971fc51d89b3820e96
 Section: Tweaks
-Description: Removes SIM-related alerts from SpringBoard
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
-Name: SIM Alert Suppression
-Sileodepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Description: Springboard Harlem Shake!
+Tag: purpose::extension
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=harlemshakeDp
+Dev: filippobiga
+Name: Harlem Shake
 
-Package: uk.invoxiplaygames.checkmatestore
-Version: 1.0
+Package: com.iosvidocum.ifile
+Version: 2.2.0-1
 Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 164
-Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: debs/checkmatestore-1.0.deb
-Size: 4526
-MD5sum: 0cf8f191025744d188a84aea76ea3bde
-SHA1: e2aabe60c440a0f48da3b3ebd4dddb0d1042a2aa
-SHA256: db524798383458869787d062f913ddff2cbb67373ebe29d25db56c2b6a81a8d7
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
-Name: Checkmate, Store!
+Maintainer: Carsten Heinelt
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: debs/com.iosvidocum.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9746570
+MD5sum: b2f34684d22b892b82133b44f1deb570
+SHA1: 68324e9c0a68e6cd4d9658cefad479f19ade5ee3
+SHA256: 3abb037dc105ff0ea334bf16321a42fb93994e6587fd59ecd906c36394dcb9d6
+Section: Apps
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
+Author: Carsten Heinelt
+Name: iFile
 
-Package: uk.invoxiplaygames.checkmatestore
+Package: com.iosvidocum.infiniboard
+Version: 2.1.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 204
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport (>= 1.6)
+Filename: debs/com.iosvidocum.infiniboard_2.1.2-1_iphoneos-arm.deb
+Size: 54654
+MD5sum: dcfd2e0110737a1deddf6197f7f7b0dd
+SHA1: 690d008097470a04c325bda55d395110aba9e868
+SHA256: 3857347e5e51c25d6e7d091235388017587a91ad841e634af219b1ea74df72cf
+Section: Tweaks
+Homepage: http://chpwn.com/cydia/infiniboard.html
+Description: Vertically scroll your home screen pages!
+Tag: cydia::commercial
+Author: chpwn <support@chpwn.com>
+Depiction: http://chpwn.com/cydia/infiniboard.html
+Dev: chpwn
+Icon: file:///Library/PreferenceLoader/Preferences/Infiniboard.png
+Name: Infiniboard
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.iosvidocum.infinifolders
+Version: 2.1.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
+Filename: debs/com.iosvidocum.infinifolders_2.1.2-1_iphoneos-arm.deb
+Size: 49230
+MD5sum: d0018e84263a6ae50a921a2668a902ae
+SHA1: be300c1ec8a78a10db80ff27a94e1a3d75161d2e
+SHA256: e4e172125e1a27b74464b12644988fafad883a479d770770b69794315bf5f348
+Section: Tweaks
+Homepage: http://chpwn.com/cydia/infinifolders.html
+Description: Scroll your folders: break the icon barrier!
+Tag: cydia::commercial, purpose::extension
+Author: chpwn <support@chpwn.com>
+Depiction: http://chpwn.com/cydia/infinifolders.html
+Dev: chpwn
+Icon: file:///Library/PreferenceLoader/Preferences/Infinifolders.png
+Name: Infinifolders
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.iosvidocum.kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: debs/com.iosvidocum.kDFUApp_1.0.3_iphoneos-arm.deb
+Size: 80276
+MD5sum: 780609610515709a4be0981c3d5a916c
+SHA1: 9b8dd079f7eb09d38ca7dec2fac05318313da5d9
+SHA256: d56dd02025e3a5bc9738e03fc8c7afeb506bb702b63e166746cabb94574b7bbb
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
+
+Package: com.iosvidocum.kDFUBundles
 Version: 1.0.1
 Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 164
-Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: debs/checkmatestore-1.0.1.deb
-Size: 4500
-MD5sum: 4c2de15f36445e0c2f56db6556382ef8
-SHA1: 4e0e35ad0267b06e542fee20e88277db713a8946
-SHA256: aab1424060b1275db46a060f64c7ba3d3f71e308c17627c7cdd6d6466dfe17e3
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
-Name: Checkmate, Store!
+Maintainer: LukeZGD
+Depends: org.tihmstar.kDFUApp
+Filename: debs/com.iosvidocum.kDFUBundles_1.0.1_iphoneos-arm.deb
+Size: 10746
+MD5sum: 1d5dba6d9bb8680a062bffef02ad47cc
+SHA1: 88cb8e6150ff864bc1569d378891d47e96108827
+SHA256: 08f2ea44447e9f1d3de08cd8dc71beece4e9a5f7b581ad3960500c5ee304ec6b
+Section: System
+Description: More device support for kDFUApp
+Author: LukeZGD
+Name: kDFUApp Bundles
 
-Package: uk.invoxiplaygames.checkmatestore
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 164
-Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: debs/checkmatestore-1.1.deb
-Size: 4518
-MD5sum: c2ea6cc05a4452f3549ff653e70a4273
-SHA1: ca2f5aabc512960c665d258738e7d47c55c413f5
-SHA256: 0c159a005985a54f45133402a89b027233d06389c322f8450454786340a3fe28
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
-Name: Checkmate, Store!
-
-Package: uk.invoxiplaygames.checkmatestore
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 164
-Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: debs/checkmatestore-1.2.deb
-Size: 5200
-MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
-SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
-SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
-Name: Checkmate, Store!
-
-Package: com.hackyouriphone.icloudbypassfixer
+Package: com.iosvidocum.libcrippy-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: firmware (>=13.0), mobilesubstrate, preferenceloader
-Filename: debs/com.hackyouriphone.icloudbypassfixer_1.0_iphoneos-arm.deb
-Size: 17860
-MD5sum: d2eae59f78b278aad78eeff9e8aa2d04
-SHA1: eb197a7bf797c83026c37dc4b8bdc24bc9232456
-SHA256: 0381fb67426e3249d6ac610c5603ccf2b772d4b95848d0e3fa2ffd251f903d81
-Section: Tweaks
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icloudbypassfixer
-Description: Fix your iPhone Bypass iOS 13
-Author: DPKGHUB <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icloudbypassfixer
-Name: iCloud Bypass Fixer
-Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=icloudbypassfixer
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: debs/com.iosvidocum.libcrippy-1.0.0_1.0_iphoneos-arm.deb
+Size: 15888
+MD5sum: 195eac2e87fedbcef86439bf604d62b4
+SHA1: ea61943beedbc5b83e78735c8630ff16503f8bcc
+SHA256: 184da411202b942b2f41ee792f92455205b9e1ee92895e2cd0eef791b9dce2a2
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
 
-Package: us.hackulo.appsync31
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: Genius Blog <appsync@hackulo.us>
-Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
-Depends: com.hackulo.us.sourcegui
-Filename: debs/appsync31-1.0.1.deb
-Size: 296542
-MD5sum: 534080636c26e40d3efbdf195f3bfdfb
-SHA1: 2e3be3668f26c9d4ac7b796042aa7b05184fe4ae
-SHA256: c0975018be2f1fe73eaeadce9a3c4ead17ab01b08eb41bd11a82b2f83c60fb70
-Section: Hackulo.us
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Reilly <appsync@hackulo.us>
-Depiction: http://hackulo.us/depict/appsync31/
-Name: AppSync for OS 3.1
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync31
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Genius Blog <appsync@hackulo.us>
-Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
-Provides: appsync
-Filename: debs/appsync31-1.0.2.deb
-Size: 248082
-MD5sum: 4833d00d8bb9c6da0ad06aa0f13a0acf
-SHA1: 0d985691581885d323d61bbfc195602d6b281e46
-SHA256: c9ded74192d0e3a78855700f65be3834c53364782343338f336f2315a4e60e89
-Section: Utilities
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Reilly <appsync@hackulo.us>
-Name: AppSync for OS 3.1
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync32
-Version: 1.0.1-3
-Architecture: iphoneos-arm
-Maintainer: Dissident <apps@hackulo.us>
-Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
-Depends: com.hackulo.us.sourcegui
-Filename: debs/appsync32-1.0.1-3.deb
-Size: 274594
-MD5sum: 0a8fa6363baa0e9eee6381cf84b16c77
-SHA1: b1afb4c3c0c83c0dde8eb0d53602b5c7cdfb10fe
-SHA256: 29b84ed428c5f024b4362f65e25d2645b38bf385365748b0ba4a8aafaf3dafbb
-Section: Hackulo.us
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Dissident <apps@hackulo.us>
-Depiction: http://hackulo.us/depict/appsync32/
-Name: AppSync for OS 3.2
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync32
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Dissident <apps@hackulo.us>
-Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
-Provides: appsync
-Filename: debs/appsync32-1.0.2.deb
-Size: 222738
-MD5sum: 6463e5043d00ef07d8010f3f654eca98
-SHA1: 0148903ce31af0d2f0b1bbb14b73056621db30f2
-SHA256: d6c5c1ed81753392b8c8ba71f9fcdeafffb929ba475431cc4f724ca02422ebe0
-Section: Utilities
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Dissident <apps@hackulo.us>
-Name: AppSync for OS 3.2
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: bag.skyglow.bluetweety
+Package: com.iosvidocum.libpartialzip-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Requis, bag.xml
-Installed-Size: 948
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
-Size: 111010
-MD5sum: f32c4f1b3f728762ccb997ef62e4656e
-SHA1: 24d850223ca9966304324344d5c33164bc237c1e
-SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
-Section: Tweaks (skyglow)
-Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
-Author: Requis, bag.xml
-Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
-Name: BlueTweety
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: debs/com.iosvidocum.libpartialzip-1.0.0_1.0_iphoneos-arm.deb
+Size: 6864
+MD5sum: 18c31ba13a8113b8b1dc71b07d952a05
+SHA1: eb9f6226d7df9802071c0fc2634374c2a52d70c4
+SHA256: ae30f091749bc968e7e86a688085b9af095baab458e198d99c19f6995a752526
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
 
-Package: bag.xml.tuberepair
-Version: 1.0-Beta-1
+Package: com.iosvidocum.localiapstore
+Version: 1.4-1
 Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 568
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.0-Beta-1_iphoneos-arm.deb
-Size: 125684
-MD5sum: 6bea6b3f594d8b6374b2334595b79098
-SHA1: fda1964216cb67a1d75526daa7f10ccab25bbc13
-SHA256: ac457a661dd8ddc785e1ab3ff0b3d2b7af9a0dff09e39e4e6979a194500bdcac
-Section: Tweaks (skyglow)
-Description: TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: debs/com.iosvidocum.localiapstore_1.4-1_iphoneos-arm.deb
+Size: 71058
+MD5sum: 57d35fad521b09ee29152383cd1fae9c
+SHA1: 1e083925097d0f8c661b4bfed36df711c1ba710d
+SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
+Section: Tweaks
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
 
-Package: bag.xml.tuberepair
-Version: 1.0-Beta-2
+Package: com.iosvidocum.nitrous
+Version: 2.5-5
 Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 360
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.0-Beta-2_iphoneos-arm.deb
-Size: 112372
-MD5sum: 7980faa2ee5ce03e934ca73dccc6d082
-SHA1: 3abb55c61184ebccb077b2bd3e690c2a7236624a
-SHA256: 8dc0fb828a3a854832f5fbcf6b7e8cdc34db6a18428fd1bb824c871daa62be10
-Section: Tweaks (skyglow)
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 278
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Breaks: io.pangu.xuanyuansword8 (<< 0.2)
+Filename: debs/com.iosvidocum.nitrous_2.5-5_iphoneos-arm.deb
+Size: 170442
+MD5sum: 16398924a37c4643682b6ad56541a485
+SHA1: 9b90f244e83e623406afc47032a9facaca31a25d
+SHA256: b9e85c715202d60d1a00c52da1fa3340ceb8eca1bc53281f14b7b495a6aee848
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Description: Give JavaScript a speed boost with Nitro
+Tag: purpose::extension, role::enduser, ios7support::1, ios8support::1
+Author: Joe Jordan <nitrous@joedj.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Dev: joejordan
+Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
+Name: Nitrous
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: bag.xml.tuberepair
-Version: 1.1-Beta-1
+Package: com.ixmoe.1pwn.Veteris
+Version: 2.1.1
 Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 152
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.1-Beta-1_iphoneos-arm.deb
-Size: 101590
-MD5sum: 0327b6b664d0aa4e995711d97b4f9d87
-SHA1: 63cd39d5a35083aefc4c29c5cba374b7c179118b
-SHA256: 473e78c61932d149c35c105fbcad00145314cc9b668ce207745ae6dc7596df59
-Section: Tweaks (skyglow)
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
-
-Package: bag.xml.tuberepair
-Version: 1.1-Beta-2
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 216
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
-Size: 101918
-MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
-SHA1: 2ccb6f9877e86a38c59b55c97f529beb37ebe866
-SHA256: a0728c4753df3625d847ba79c5128123020698f5c22f1890a2eb1b9da659727e
-Section: Tweaks (skyglow)
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
-
-Package: bag.xml.tuberepair
-Version: 1.2-Beta-1
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 216
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
-Size: 97368
-MD5sum: 9838724bcbd0d04e44a62c31baf2f182
-SHA1: af42f56aab86f98fad9b4a8503808a4490db7e0e
-SHA256: cad60e92e89b067cc8c605c3975210122a2129ccab907244d298cdd02da962dd
-Section: Tweaks (skyglow)
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync, moe.yzu.veterishelper
+Filename: debs/com.ixmoe.1pwn.veteris_2.1.1_iphoneos-arm.deb
+Size: 1950126
+MD5sum: d1b104bee17dd9505546ef6e91df438d
+SHA1: b6b519d0825dafc94754f0b642a683149e54e271
+SHA256: a40e926e9e702684df51ce35d12c9531954f9d0048eeca8c21939f5316408160
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: A Client for the Veteris Server.
+Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
 
 Package: com.jamied360.ncsettings
 Version: 1.7.1
@@ -887,7 +930,7 @@ Size: 472030
 MD5sum: 8c17029eb872efac412f8e9acb5107d5
 SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
 SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
-Section: Addons (NotificationCenter) (skyglow)
+Section: Addons (NotificationCenter)
 Priority: extra
 Homepage: http://modmyi.com/info/ncsettings.php
 Description: NCSettings is a sleek Notification Center toggle widget
@@ -895,6 +938,159 @@ Author: JamieD360 <jamied360support@live.co.uk>
 Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.jjr.mcpefix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 鸡精人
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.jjr.mcpefix_1.0_iphoneos-arm.deb
+Size: 5828
+MD5sum: 78849ed6b41965620ebfa541ae575f22
+SHA1: d5adcda94d7ca230e28865b42d40b901cf1babc6
+SHA256: 5aff18dcc3ace43563ccb504ae91faada2c504a676ebaac5e98e2516c4cc0b40
+Section: 工具
+Author: 鸡精人
+Name: MCPEFix
+
+Package: com.koutsie.witch
+Version: 1.1.60
+Architecture: iphoneos-arm
+Maintainer: Koutsie <contact@the-sauna.icu>
+Installed-Size: 2780
+Depends: firmware (>= 6.1.3), firmware (<= 10.3.3)
+Filename: debs/com.koutsie.witch_1.1.60_iphoneos-arm.deb
+Size: 1247400
+MD5sum: b8d8a5264495379b990004edeabb2717
+SHA1: 521f8ccf59bb890e53944779973a49d60869153e
+SHA256: b7649ad4abd3e6b674606bf6649e6cf8800ece13603d2607294780cf5eb63470
+Section: Applications
+Homepage: https://koutsie.srht.site/
+Description: A magical Twitch client for iOS 6-10.
+Author: Koutsie
+Name: witch
+
+Package: com.legacyguides.pinterestx6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Filename: debs/com.legacyguides.pinterestx6_1.0_iphoneos-arm.deb
+Size: 30669826
+MD5sum: 235be5dba201c199ba9f8a34c7a5bf04
+SHA1: 5cdf8ca948e8e7b7dc56eb4c1c3c9e98dd7e9019
+SHA256: 4f6d97c9c71f25d7e68ff22366906877d221d508f9211fa9dee29144b532cf99
+Section: Tweaks
+Priority: optional
+Description: Pinterest patched for iOS 6+
+Author: LegacyGuides <contact@legacyios.com>
+Name: PinterestX for iOS 6+
+
+Package: com.myrepospace.p1neapple.zephyr
+Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: Redenfire <redenfire@gmail.com>
+Installed-Size: 112
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), repo.biteyourapple.net.multicleaner, repo.biteyourapple.net.zephyr
+Filename: debs/zephyr_1.6.4-1_iphoneos-arm.deb
+Size: 44614
+MD5sum: 6e62a3c506ff9cd58f07e1e7df683ae5
+SHA1: 1371f9b222827585d15677fec108a201180997d4
+SHA256: a87d066d9aecf36dd46b152315e139608195d57789b6d3c5eb893c54cf2f205e
+Section: BYA Apps
+Homepage: http://www.biteyourapple.net
+Description: Awesome swipe multitasking and gestures!
+Author: BYA Repository
+Depiction: http://www.biteyourapple.net/depiction/dep.php?name=zephyr
+Name: Zephyr
+Sponsor: biteyourapple <http://www.biteyourapple.net>
+
+Package: com.rpetrich.emphasize
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+emphasize@gmail.com>
+Installed-Size: 28
+Depends: mobilesubstrate, firmware (>= 5.0), applist (>= 1.5.3)
+Filename: debs/com.rpetrich.emphasize_0.2.1_iphoneos-arm.deb
+Size: 6924
+MD5sum: 76474a3da6a92e4b53bdfe7189eccca0
+SHA1: 4219ec9e639011de57ef6318ff827443e48ae1e9
+SHA256: b4f6bf4cd2cd631fed689adf324aa896bd5f66a553b5e01bbd11f0df8cb88b84
+Section: Tweaks
+Description: Customizable control color schemes
+Author: Ryan Petrich <rpetrich+emphasize@gmail.com>
+Depiction: http://rpetri.ch/cydia/emphasize/
+Dev: rpetrich
+Icon: file:///System/Library/PreferenceBundles/Wallpaper.bundle/icon.png
+Name: Emphasize
+Website: http://rpetri.ch/cydia/emphasize/
+
+Package: com.senko.daemon
+Version: 1.0.4-stable
+Architecture: iphoneos-arm
+Maintainer: sqmrak
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/senko-v1.0.4-stable.deb
+Size: 8067644
+MD5sum: 8f672adfc8261bc9b6a215454c1c3a8f
+SHA1: 312f3fa5d6a54e2917e8ce99c81dbb2d40c0c8bc
+SHA256: 21d78d07c72ba6df6aad4d8a3b3380edc2d5c1c187c40f613821443bac711f6d
+Section: Networking
+Priority: optional
+Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
+Author: sqmrak
+Name: Senko
+
+Package: com.senko.daemon
+Version: 1.0.6-stable
+Architecture: iphoneos-arm
+Maintainer: sqmrak
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/senko-v1.0.6-stable.deb
+Size: 8076568
+MD5sum: f46cc6ba69ed895321cff8575459d64c
+SHA1: abdeff0aa8cce6acfca73425c5dc6a3b47a3311e
+SHA256: 31337b1ad160468744091ead24bf857c8e4aec17ad83cb7f9f6844a363afcbf1
+Section: Networking
+Priority: optional
+Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
+Author: sqmrak
+Name: Senko
+
+Package: com.senko.daemon
+Version: 1.0.7-stable
+Architecture: iphoneos-arm
+Maintainer: sqmrak
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/senko-v1.0.7-stable.deb
+Size: 8083494
+MD5sum: 1a95594d3badec611a6678b5345f795f
+SHA1: 1bd79bfed43822c9c7dca90927f443d222559ee0
+SHA256: 8c3c2247f014d47568bf2b6e1fbd59a00a9570072f247939d5713da9cb87d5db
+Section: Networking
+Priority: optional
+Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-10 (armv7 + arm64)
+Author: sqmrak
+Name: Senko
+
+Package: com.senko.daemon
+Version: 2.0.0-stable
+Architecture: all
+Maintainer: sqmrak
+Depends: firmware (>= 5.0)
+Filename: debs/senko-v2.0.0-stable.deb
+Size: 19403464
+MD5sum: 922f1cb12c26caa052de2dd20d07f783
+SHA1: 4deb7167e37408e0019b73260fc4311405d38967
+SHA256: 63a224b15d7f80f4bb8e2ffcd280bc386650f529d39a3386b3e5b417a3afadcd
+Section: Networking
+Priority: optional
+Description: full-device VLESS and AmneziaWG client for jailbroken iOS 5-15 (armv7 + arm64)
+Author: sqmrak
+Name: Senko
 
 Package: com.skyglow.earthx
 Version: 1.0
@@ -907,7 +1103,7 @@ Size: 3900
 MD5sum: aede38341cad905ad22361b303d84562
 SHA1: d95fd65cc9d3bf39e7ac9f1f9aefc1ef2c08bdea
 SHA256: 644210b061605b42932dbf9c951826863dfdd9b422987139e50eda4f83ee2550
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Enjoy Google Earth again with this small tweak!, just install it, and Google Earth will  work again. (Only tested on iOS 6)
 Author: Requis
 Name: EarthX
@@ -923,7 +1119,7 @@ Size: 10024
 MD5sum: f2f96aae1dddb8436bca74599aec8b58
 SHA1: da00d1b016b81f99a9957c9fedfd2a14828a332b
 SHA256: 927287c428c5cdea231c597824a211db0af2c38d030bc45cfd66fff2ca95a5ac
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Fix the iOS 6 AppStore connection issues, and restore its classic layout, furthermore this tweak has been updated to no longer consume as much battery as it did before, now being minimal.
 Author: Requis, Daph
 Name: iTunesLayoutFix
@@ -939,7 +1135,7 @@ Size: 106508
 MD5sum: fe7579e05ac248a38df0a065fc92f6dc
 SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
 SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
 Author: Requis, Bag.xml
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
@@ -957,7 +1153,7 @@ Size: 108400
 MD5sum: 119e8183a48268f6920cfc3b0a8df212
 SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
 SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
 Author: Requis, Bag.xml
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
@@ -975,7 +1171,7 @@ Size: 110736
 MD5sum: 8b40111dacc1b363d87a59b05abb9d1b
 SHA1: 4bd1cd04b07e66c3dd5c2654826d0d1c7056c770
 SHA256: e961e45c5d43722ce373206de6cc30ba8e5a1c3fc6ade0831b7e4576bf009c6d
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
@@ -993,7 +1189,7 @@ Size: 121398
 MD5sum: 1d90678d3e53992238f9f895d1bb451d
 SHA1: 1b9ed91e75d7b1e4d92fb3d41032503e1fa0127b
 SHA256: 9389f79744c4c83d1edcda032a81ad67129f007b36cb3f4c5feb2f5902f75a69
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
@@ -1011,7 +1207,7 @@ Size: 140024
 MD5sum: 96ead83899ea3b5ad0b62572eb4246bc
 SHA1: dbf746fcd0e259c89112132a6f95745075287080
 SHA256: f858a8c40ae49dffbe8e736a8584a0fdc5f7ef018bfb586fdfe3431b51a1b002
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
@@ -1029,7 +1225,7 @@ Size: 136286
 MD5sum: b6e4b4339f4bcf2ebe24134f8c56061e
 SHA1: 467236de157315ee66bb818f5c89bd09cb7418e1
 SHA256: 26ba936f2b974b280e90f466de7d710829b578bb4a0d28c956a655aa239815fd
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
@@ -1048,7 +1244,7 @@ Size: 1921232
 MD5sum: 742d7284eb21a5ae2cf59d7f2e93bb77
 SHA1: 62f2430767d3434f46cba4a42d57b8cf1b82bdbb
 SHA256: 53ad9bed8784a332ce9b5179ff70e829f098be9cf04a4fe5a0e27b35a30e74cf
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Low power daemon that runs in the background and fetches notifications from a server for all of your apps.
 Author: Requis, Preloading
 Depiction: http://cydia.skyglow.es/depictions/?p=com.skyglow.snd
@@ -1065,7 +1261,7 @@ Size: 18640
 MD5sum: 2cc527709d172622ce444d6c2822dcdd
 SHA1: bcfdf0325e230b7fd4c109e93976cd5eca03e341
 SHA256: b6e084265211c1a4f1d685c397c5ae4f975eff1b6d6589592d929806fdfffdfe
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
@@ -1082,27 +1278,11 @@ Size: 18380
 MD5sum: 76e962044616d32d7a6da954880867eb
 SHA1: cedd8f68907e7ffdbdb9d2875d00df4a38d87e41
 SHA256: 615f8e5f77372031af23da9462624b2b032463106e08b23d4bca4afc77bdece4
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
 Name: StocksX
-
-Package: com.skyglow.weatherx
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Requis
-Installed-Size: 200
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.skyglow.weatherx_1.0_iphoneos-arm.deb
-Size: 3762
-MD5sum: ae8a93a017aa55e8516592166f594e5b
-SHA1: fa7d355eaefab27b6571315fc2af5c9c9757c410
-SHA256: ba26253382cf3f902953f995381cc3e32d6cda5a5f3785ef5fe4257d925a49e6
-Section: Tweaks (skyglow)
-Description: WeatherX but using Requi's servers
-Author: Requis
-Name: WeatherX
 
 Package: com.skyglow.weatherx
 Version: 2.0
@@ -1116,7 +1296,7 @@ Size: 5340
 MD5sum: 6b9c5e1f1e858b92925bda5118d4e70d
 SHA1: f51b4f8363a310eca96acbe6e3d45126a636c564
 SHA256: eba176627f1e77a0083922e1e2dd90a4569d1d6a674890f028b9b1f7819aa4f7
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: WeatherX but using Requi's servers, now also fixes weather widget in the notification center.
 Author: Requis
 Name: WeatherX
@@ -1132,7 +1312,7 @@ Size: 84100
 MD5sum: a6261fcbcbe36290f4aaa25357744d9e
 SHA1: a6e6caabf056d05b8f961165123917e9eff9c846
 SHA256: c7648684aff258bfa831b2e7c317361dad7c300d24505367c622d8b84ef6d67b
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
@@ -1149,72 +1329,243 @@ Size: 85106
 MD5sum: cf752c23741cfa2513444f2bcc870459
 SHA1: e3cb5fe093a7ba8e51a0ea8646c513e6490e1626
 SHA256: c78c056f2c6606081f2114ceaa4d556bb7802f39647ebc006d26a5c444c65eea
-Section: Tweaks (skyglow)
+Section: Tweaks
 Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: WeatherX
 
-Package: com.aoi.storefix
+Package: com.soundwave.app
+Version: 1.0.0-136+debug
 Architecture: iphoneos-arm
-Version: 1.0-7
-Section: System
-Maintainer: aoi_satou
-Depends: firmware (<= 6.1.6)
-Conflicts: com.aoi.storefix 
-Filename: debs/com.aoi.storefix_1.0-7_iphoneos-arm.deb
-Size: 1512
-MD5sum: c3182d4dc9df2c63fe4ec44c6a9949b5
-SHA1: 123cbd1cb54b56e4032f45b30543a0a4156951dd
-SHA256: da5aaca8b0ca06ded50cc6fc975304972fc93a4efb309ba8e33da69ad4e73866
-SHA512: 965ac663d47f9b85d8ad231f1c1efee6decd894c1c5168ca089e7f01777c93920b3b7ef1cf10ccb1966237bf7b1ee7021880c1153db6bdd333cf9fc1d1f5cbcf
-Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Author: aoi_satou
-Name: AppStoreFix
-Depiction: http://aoiblog.jp/appstorefix_history.html
-dev: aoi_satou
+Maintainer: anazerka
+Installed-Size: 1200
+Filename: debs/com.soundwave.app_1.0.0-136+debug_iphoneos-arm.deb
+Size: 827524
+MD5sum: a291ff3a14445c045ea185209d2f1cea
+SHA1: dc286186b91261d3afb305a5a3942ee3ba1cec76
+SHA256: 2b8b4981fb4255c9be94e95218c03a10f8bf927aea9fbbb26c095e958c2fc968
+Section: Applications
+Description: SoundCloud client for iOS 3
+Author: anazerka
+Name: SoundWave
 
-Package: com.iosvidocum.displayrecorder
-Name: Display Recorder
+Package: com.vlesscore.app
+Version: 0.6.3-1
 Architecture: iphoneos-arm
-Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
-Depiction: http://rpetri.ch/cydia/displayrecorder/
-Website: http://rpetri.ch/cydia/displayrecorder/
-Maintainer: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
-Author: Ryan Petrich <rpetrich+displayrecorder@gmail.com>
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
-Section: System
-dev: rpetrich
-Version: 1.3.20
-Installed-Size: 2508
-Filename: debs/com.iosvidocum.displayrecorder_1.3.20_iphoneos-arm.deb
-MD5sum: 06a7300fc8ab3a49e5eefb9f6a4caf40
-Size: 918426
+Maintainer: notfence
+Depends: firmware (>= 5.0)
+Filename: debs/com.vlesscore.app_iphoneos-arm.deb
+Size: 11037780
+MD5sum: fffb0b8c6d85bf5d1c110d1c8c922380
+SHA1: 88dc2731defeee7a5f736e8ee3dd6463198cd60b
+SHA256: a858b046bd0986d74741813291db55953ac123162e063664cf428396735c89d3
+Section: Networking
+Priority: optional
+Description: Full-device VLESS routing app
+Author: notfence
+Name: vless-core
 
-Package: com.rpetrich.emphasize
-Name: Emphasize
-Version: 0.2.1
+Package: com.yourepo.1rol4k21337.ano
+Version: 2.0
 Architecture: iphoneos-arm
-Description: Customizable control color schemes
-Maintainer: Ryan Petrich <rpetrich+emphasize@gmail.com>
-Author: Ryan Petrich <rpetrich+emphasize@gmail.com>
-Depends: mobilesubstrate, firmware (>= 5.0), applist (>= 1.5.3)
+Maintainer: anazerka
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.1rol4k21337.ano_2.0_iphoneos-arm.deb
+Size: 975718
+MD5sum: e051441204734cf61a2dc91cbafc11b0
+SHA1: c08079fab944d9f728cf83db986ec671b6c5552c
+SHA256: 8d44013f0368d5b13ffd5d69647e87c662ef363a0b4d2bf215d8c933c5ba8001
+Section: Messaging
+Description: AI Client for iPhone OS 3.0-iOS 7
+Author: anazerka <1rol4k2@gmail.com>
+Name: Ano
+
+Package: com.yourepo.1rol4k21337.telegram
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: anazerka
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.1rol4k21337.telegram_1.0.0_iphoneos-arm.deb
+Size: 743552
+MD5sum: ba6e880690b6c6597360fcd8f6b7e75a
+SHA1: e2191fe52b71311c293a0e75c7348dca01c73280
+SHA256: bf5f8fc5e953927fcdeca9afceecfd54c6ae8b182470fc506cba237c6c66db04
+Section: Messaging
+Description: Legacy Telegram client for iOS 6 and 7.
+Author: anazerka
+Name: Telegram
+
+Package: com.yourepo.1rol4k21337.twelve
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: anazerka
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.1rol4k21337.twelve_1.0.0_iphoneos-arm.deb
+Size: 1101898
+MD5sum: 88d0e893618e762c965655c630d1b2d4
+SHA1: 12070444491653a6edc8a96f84a464ef173af9f9
+SHA256: 86c1439132ed266f470047fb725e7cc7945afdcfffd39cb1bf33524042de109a
+Section: Messaging
+Description: Twelve for iOS 6
+Author: anazerka
+Name: Twelve
+
+Package: com.yourepo.broadway.cydown
+Version: 6.0.6
+Architecture: iphoneos-arm
+Maintainer: broadway <broadway219thebest@gmail.com>
+Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
+Filename: debs/com.yourepo.broadway.cydown_6.0.6_iphoneos-arm.deb
+Size: 439620
+MD5sum: 726c4a0eb4050f669430b0b87b336476
+SHA1: 5278f837df9e1f9987edae73c4c410f3b5b1abf8
+SHA256: 51ff79b9c7c763bab568108800783fa2ada180d80d9b5f1738532066d67017dd
 Section: Tweaks
-Website: http://rpetri.ch/cydia/emphasize/
-Depiction: http://rpetri.ch/cydia/emphasize/
-Icon: file:///System/Library/PreferenceBundles/Wallpaper.bundle/icon.png
-dev: rpetrich
-Installed-Size: 28
-Filename: debs/com.rpetrich.emphasize_0.2.1_iphoneos-arm.deb
-MD5sum: 76474a3da6a92e4b53bdfe7189eccca0
-SHA1: 4219ec9e639011de57ef6318ff827443e48ae1e9
-SHA256: b4f6bf4cd2cd631fed689adf324aa896bd5f66a553b5e01bbd11f0df8cb88b84
-Size: 6924
+Description: Install paid packages for Free in Cydia!
+Author: julioverne <broadway219thebest@gmail.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.yourepo.dinamit.auxo
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: debs/com.yourepo.dinamit.auxo_1.4-2_iphoneos-arm.deb
+Size: 1818268
+MD5sum: da0251ab6e4cd63bdf939fbc675e30cb
+SHA1: 13ac5c7480b75938ea3f06535b9975b736085454
+SHA256: 50f43562012fb5bd6f8fcd42ce858379f6dea60121f91082417187d5bab2513d
+Section: Tweaks
+Description: A fantastic re-imagined multitasking bar!
+Author: A3tweaks <A3tweaks@gmail.com>
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+
+Package: com.yourepo.repackaged.springtomize2-ios56
+Version: 1.4.3-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: debs/com.yourepo.repackaged.springtomize2-ios56_1.4.3-1_iphoneos-arm.deb
+Size: 207520
+MD5sum: 5f6ffe2112488241a7dfd9bd0658c94c
+SHA1: b436b566bf40f5d9b5a89be152427b0523f20ab4
+SHA256: 564cc13fd8911362f4f9e592545faf20fd83c3efac0496c97a10fedac13de4fc
+Section: Tweaks
+Description: SpringBoard, the way you want it. All over again.
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize 2 - iOS 5 & 6
+
+Package: com.yourepo.rol.mcloader
+Version: 1.0-14
+Architecture: iphoneos-arm
+Maintainer: sharedRoutine <pizzapopa1337@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.rol.mcloader_1.0-14_iphoneos-arm.deb
+Size: 41308
+MD5sum: af70a0560d91231d10ecfd918751bb95
+SHA1: 6b6d915798477290fa2aa197e93cecd6119ab0f6
+SHA256: d097e985ffee404f4aa1d7834338a208f83b4c0993a0ea13eb2efc28c8a5d3b0
+Section: Tweaks
+Description: Minecraft PE ModLoader
+Author: sharedRoutine <pizzapopa1337@gmail.com>
+Name: MCLoader
+
+Package: dev.preloading.ebayx2
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 2552
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.ebayx
+Filename: debs/dev.preloading.ebayx2_1.0.1_iphoneos-arm.deb
+Size: 1195246
+MD5sum: c9b0f2e77d060e539149f3b911b8c968
+SHA1: e41125bfe937990d20706614444c9a15db22b322
+SHA256: bbaca7ad968ace096927534e4711628bd7444079d281425425ffeb8b29006e2f
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Description: A tweak that fixes the eBay app.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Name: EBayX²
+
+Package: dev.preloading.ninaswitcherforaim
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.preloading.ninaswitcherforaim_1.2.0_iphoneos-arm.deb
+Size: 5978
+MD5sum: 9a413367eca496d66c0da3ac5400db00
+SHA1: f931d9f905308387f6df1e226daa65e9f1e95996
+SHA256: 66c64a1f8e4b5c3fd93fb19c45b0eab49f44a7d6a4de3c43d2023b723e3f4519
+Section: Tweaks
+Description: A tweak to swap the URLs of AIM & ICQ apps to NINA's servers
+Author: Preloading
+Name: NINA Switcher
+
+Package: dev.preloading.retranslate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+Section: Tweaks
+Description: Fixes Google Translate.
+Author: Preloading, SpaceSaver2000-1
+Name: Retranslate
+
+Package: dev.preloading.tubereplacer
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 956
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: debs/dev.preloading.tubereplacer_1.0.4_iphoneos-arm.deb
+Size: 233050
+MD5sum: e525c61dd71edaca04105f320cac8b81
+SHA1: 50927aa5fe1ece75cdef5d607a61a6a520f8ac98
+SHA256: 002ef516d0e1b247c9f38354cb1e36c7ffc73fc3824b6fd1ad2006ccf4264c1e
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
+
+Package: moe.yzu.veterishelper
+Version: 1.0.0-53+debug
+Architecture: iphoneos-arm
+Maintainer: Stella Diaz (electimon)
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: debs/moe.yzu.veterishelper_1.0.0-53+debug_iphoneos-arm.deb
+Size: 7224
+MD5sum: f92062d4ddd14532c7d39a6aba32a751
+SHA1: 98ecb6684ebcf21993dd180851e20030dea68726
+SHA256: 9af54f52b9f46db8187cafc76851fa546ff72c03e1365e44ce07ff9b84bc4551
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Stella Diaz (electimon
+Name: Veteris Helper
 
 Package: net.angelxwind.appsync40plus
 Version: 1.2.2
 Architecture: iphoneos-arm
-Maintainer: Karen/??? <karen@akemi.ai>
+Maintainer: Karen/あけみ <karen@akemi.ai>
 Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
 Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
 Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
@@ -1227,111 +1578,30 @@ SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
-Author: Karen/???, Dissident <karen@akemi.ai>
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
 
-Package: trevir.Discord
-Version: 0.8.5
+Package: net.angelxwind.preferenceorganizer2
+Version: 4.0.8
 Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
-Depends: firmware (>=5.0)
-Filename: debs/trevir.discord_0.8.5_iphoneos-arm.deb
-Size: 819392
-MD5sum: a0c2471c860114d3d7d76ba7e1b7e61b
-SHA1: 9dc57ee4d8153fb90f03f08e5f0cbbb7aee8e2b4
-SHA256: 26d3e7b7f46286439774f358b0958e3eaaf53808a640fa06db9fdf7ba8a44bcc
-Section: Social
-Description: Discord client for iOS 5 & 6 by Trevir
-Author: Trevir <triveri@outlook.com>
-Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
-Icon: file:///Applications/Discord.app/Icon@2x.png
-Name: Discord Classic
-
-Package: com.jjr.mcpefix
-Architecture: iphoneos-arm
-Name: MCPEFix
-Version: 1.0
-Description: fix chat on mcpe
-Author: ??? 
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 2016
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
+Conflicts: com.phillipt.noappsettings, jp.r-plus.cloaky, me.qusic.preferenceorganizer, com.sull.preferenceorganizer, com.sull.preferenceorganizer2, com.sull.preferenceorganizer7
+Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
+Filename: debs/net.angelxwind.preferenceorganizer2_4.0.8.deb
+Size: 1389558
+MD5sum: b4677faf3fe036219dd99404c15c0c33
+SHA1: bd626df89ba23bc466bf02dabd8a75689561a528
+SHA256: 155093a517db145d42ba0e28733d1e0b5bcfd4e291292158cdbd6146b0f77596
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Size: 5828
-Maintainer: ??? 
-Md5sum: 78849ed6b41965620ebfa541ae575f22
-SHA256: 5aff18dcc3ace43563ccb504ae91faada2c504a676ebaac5e98e2516c4cc0b40
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.jjr.mcpefix_1.0_iphoneos-arm.deb
-
-Package: com.yourepo.rol.mcloader
-Architecture: iphoneos-arm
-Name: MCLoader
-Version: 1.0-14
-Description: Minecraft PE ModLoader
-Author: sharedRoutine
-Section: Tweaks
-Depends: mobilesubstrate
-Size: 41308
-Maintainer: sharedRoutine
-Md5sum: af70a0560d91231d10ecfd918751bb95
-SHA256: d097e985ffee404f4aa1d7834338a208f83b4c0993a0ea13eb2efc28c8a5d3b0
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.yourepo.rol.mcloader_1.0-14_iphoneos-arm.deb
-
-Package: com.yourepo.repackaged.springtomize2-ios56
-Architecture: iphoneos-arm
-Name: Springtomize 2 - iOS 5 & 6
-Version: 1.4.3-1
-Description: SpringBoard, the way you want it. All over again.
-Author: FilippoBiga <filippobiga.dev@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
-Conflicts: com.filippobiga.springtomize
-Size: 207520
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Md5sum: 5f6ffe2112488241a7dfd9bd0658c94c
-SHA256: 564cc13fd8911362f4f9e592545faf20fd83c3efac0496c97a10fedac13de4fc
-Depiction: 
-SileoDepiction: 
-Filename: debs/com.yourepo.repackaged.springtomize2-ios56_1.4.3-1_iphoneos-arm.deb
-Icon: file:///Applications/springtomizeapp.app/Icon.png
-
-
-Package: com.hackyouriphone.springtomize2-icons
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: iDevid <repo@hackyouriphone.org>
-Depends: firmware (>= 5.0)
-Replaces: com.filippobiga.springtomize2 (<< 1.3-3), com.hackyouriphone.springtomize2 (<< 1.3-3)
-Filename: debs/com.hackyouriphone.springtomize2-icons_1.0-1_iphoneos-arm.deb
-Size: 64856
-MD5sum: eff350e24d0e287d4192cec08e17a361
-SHA1: 3750bb163e0f71bf22badd416d3ada5252187c67
-SHA256: 8fad13d82c244eee7cc66a21c0a14fcbe040f0cc257352e1699d8b3a37bd3f70
-Section: Addons
-Description: Settings Icons for Springtomize2
-Author: FilippoBiga <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=springtomize2-icons
-Name: Springtomize2-Icons
-
-Package: com.hackyouriphone.springtomize2-localizations
-Version: 1.0-1-1
-Architecture: iphoneos-arm
-Maintainer: iDevid <repo@hackyouriphone.org>
-Depends: firmware (>= 5.0)
-Replaces: com.filippobiga.springtomize2, com.hackyouriphone.springtomize2
-Filename: debs/com.hackyouriphone.springtomize2-localizations_1.0-1-1_iphoneos-arm.deb
-Size: 45284
-MD5sum: c04c027649a393c6254e4fe16174f225
-SHA1: 4868f1ad9473672fab06e5b1a2668691ab08abf9
-SHA256: 3c55a7d3e2d4df83245a85fd6581357d5741e4e9f4d701d379d00fd572e5de7d
-Section: Addons
-Description: Localizations for Springtomize2
-Author: FilippoBiga <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=springtomize2-localizations
-Name: Springtomize2-Localizations
+Homepage: https://cydia.akemi.ai/
+Description: Organises your Preferences app into several configurable categories for ease of navigation.
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.preferenceorganizer2
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
+Name: PreferenceOrganizer 2
 
 Package: org.altervista.exilecom.icleaner
 Version: 7.10.0
@@ -1354,218 +1624,115 @@ Dev: exilecom
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner
 
-Package: dev.preloading.ebayx2
-Version: 1.0.0
+Package: org.iosvidocum.audioout
+Version: 1.4.0-7
 Architecture: iphoneos-arm
-Maintainer: Preloading
-Installed-Size: 5788
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ixmoe.1pwn.ebayx
-Filename: debs/dev.preloading.ebayx2_1.0.0_iphoneos-arm.deb
-Size: 2117008
-MD5sum: 4b0fb6c5c7b99de018f48710df2ca904
-SHA1: 8689e668beb9042daa675bf2ead02d81a85cab12
-SHA256: 5f03147a44e21d104da06c3b5e481b5a00738b6eee6c42b94dfb8619d7193ac0
-Section: Tweaks (preloading)
-Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
-Description: A tweak that fixes the eBay app.
-Author: Preloading <me@preloading.dev>
-Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
-Name: EBayX²
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3012
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/org.iosvidocum.audioout_1.4.0-7_iphoneos-arm.deb
+Size: 411968
+MD5sum: 57e818822dabfc55e4ce5f3cedbe8940
+SHA1: 04605525e2c4bf954e4f090fbc7d85cdc2eba1c5
+SHA256: 42f0a32cc13c77d75d123b76485de87ebd90d017ae177269a8790128a21d9ca1
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
+Description: audio to speakers when headphones connected
+Tag: purpose::extension, cydia::commercial, ios7support::1, ios8support::1
+Author: vibez <mr.vibez@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audiooutDp
+Dev: vibez
+Icon: file:///Library/PreferenceBundles/AudioOutPrefs.bundle/AudioOutPrefs@2x.png
+Name: AudioOut
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: dev.preloading.ebayx2
-Version: 1.0.1
+Package: trevir.Discord
+Version: 0.8.5
 Architecture: iphoneos-arm
-Maintainer: Preloading
-Installed-Size: 2552
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ixmoe.1pwn.ebayx
-Filename: debs/dev.preloading.ebayx2_1.0.1_iphoneos-arm.deb
-Size: 1195246
-MD5sum: c9b0f2e77d060e539149f3b911b8c968
-SHA1: e41125bfe937990d20706614444c9a15db22b322
-SHA256: bbaca7ad968ace096927534e4711628bd7444079d281425425ffeb8b29006e2f
-Section: Tweaks (preloading)
-Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
-Description: A tweak that fixes the eBay app.
-Author: Preloading <me@preloading.dev>
-Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
-Name: EBayX²
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: debs/trevir.discord_0.8.5_iphoneos-arm.deb
+Size: 819392
+MD5sum: a0c2471c860114d3d7d76ba7e1b7e61b
+SHA1: 9dc57ee4d8153fb90f03f08e5f0cbbb7aee8e2b4
+SHA256: 26d3e7b7f46286439774f358b0958e3eaaf53808a640fa06db9fdf7ba8a44bcc
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png
+Name: Discord Classic
 
-Package: dev.preloading.ninaswitcherforaim
-Version: 1.2.0
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
 Architecture: iphoneos-arm
-Maintainer: Preloading
-Installed-Size: 280
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/dev.preloading.ninaswitcherforaim_1.2.0_iphoneos-arm.deb
-Size: 5978
-MD5sum: 9a413367eca496d66c0da3ac5400db00
-SHA1: f931d9f905308387f6df1e226daa65e9f1e95996
-SHA256: 66c64a1f8e4b5c3fd93fb19c45b0eab49f44a7d6a4de3c43d2023b723e3f4519
-Section: Tweaks (preloading)
-Description: A tweak to swap the URLs of AIM & ICQ apps to NINA's servers
-Author: Preloading
-Name: NINA Switcher
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: debs/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
 
-Package: dev.preloading.retranslate
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Preloading
-Installed-Size: 160
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
-Size: 18432
-MD5sum: 3351e159ad5f0b491818bfbf457e5d13
-SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
-SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
-Section: Tweaks (preloading)
-Description: Fixes Google Translate.
-Author: Preloading, SpaceSaver2000-1
-Name: Retranslate
-
-Package: dev.preloading.tubereplacer
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Preloading <me@preloading.dev>
-Installed-Size: 956
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
-Conflicts: bag.xml.tuberepair
-Filename: debs/dev.preloading.tubereplacer_1.0.4_iphoneos-arm.deb
-Size: 233050
-MD5sum: e525c61dd71edaca04105f320cac8b81
-SHA1: 50927aa5fe1ece75cdef5d607a61a6a520f8ac98
-SHA256: 002ef516d0e1b247c9f38354cb1e36c7ffc73fc3824b6fd1ad2006ccf4264c1e
-Section: Tweaks (preloading)
-Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Description: A fix for YouTube with sign-in.
-Author: Preloading <me@preloading.dev>
-Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
-Name: TubeReplacer
-
-Package: com.legacyguides.pinterestx6
+Package: uk.invoxiplaygames.simalertsuppression
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: LegacyGuides <admin@legacyios.com>
-Depends: firmware (>= 6.0), firmware (<< 11.0)
-Filename: debs/com.legacyguides.pinterestx6_1.0_iphoneos-arm.deb
-Size: 30669826
-MD5sum: 235be5dba201c199ba9f8a34c7a5bf04
-SHA1: 5cdf8ca948e8e7b7dc56eb4c1c3c9e98dd7e9019
-SHA256: 4f6d97c9c71f25d7e68ff22366906877d221d508f9211fa9dee29144b532cf99
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 132
+Depends: mobilesubstrate, firmware (>=5.0)
+Conflicts: uk.invoxiplaygames.letmestealinpeace
+Filename: debs/simalertsuppression-1.0.deb
+Size: 2810
+MD5sum: 93cd24e6c82108068e54435453587ac4
+SHA1: 9eff439f4635d83fffbd9565ca926612d08f2bf9
+SHA256: 4f6fb6fc8743d1f1902513fcda5ba96c3cb189a4fe550b735262e268e78baab4
 Section: Tweaks
-Priority: optional
-Description: Pinterest patched for iOS 6+
-Author: LegacyGuides <contact@legacyios.com>
-Name: PinterestX for iOS 6+
+Description: Removes SIM-related alerts from SpringBoard
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
+Name: SIM Alert Suppression
+Sileodepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
 
-Package: com.vlesscore.app
-Name: vless-core
-Version: 0.6.3-1
+Package: us.hackulo.appsync31
+Version: 1.0.2
 Architecture: iphoneos-arm
-Description: Full-device VLESS routing app
-Maintainer: notfence
-Author: notfence
-Section: Networking
-Priority: optional
-Depends: firmware (>= 5.0)
-MD5sum: fffb0b8c6d85bf5d1c110d1c8c922380
-Size: 11037780
-Filename: debs/com.vlesscore.app_iphoneos-arm.deb
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Provides: appsync
+Filename: debs/us.hackulo.appsync31_1.0.2_iphoneos-arm.deb
+Size: 248082
+MD5sum: 4833d00d8bb9c6da0ad06aa0f13a0acf
+SHA1: 0d985691581885d323d61bbfc195602d6b281e46
+SHA256: c9ded74192d0e3a78855700f65be3834c53364782343338f336f2315a4e60e89
+Section: Utilities
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
 
-Package: com.iosvidocum.ifile
-Version: 2.2.0-1
-Section: System
-Maintainer: Carsten Heinelt
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Package: us.hackulo.appsync32
+Version: 1.0.2
 Architecture: iphoneos-arm
-Filename: debs/com.iosvidocum.ifile_2.2.0-1_iphoneos-arm.deb
-Size: 9746570
-Installed-Size: 20224
-MD5sum: b2f34684d22b892b82133b44f1deb570
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
-Name: iFile
-Author: Carsten Heinelt
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
+Provides: appsync
+Filename: debs/us.hackulo.appsync32_1.0.2_iphoneos-arm.deb
+Size: 222738
+MD5sum: 6463e5043d00ef07d8010f3f654eca98
+SHA1: 0148903ce31af0d2f0b1bbb14b73056621db30f2
+SHA256: d6c5c1ed81753392b8c8ba71f9fcdeafffb929ba475431cc4f724ca02422ebe0
+Section: Utilities
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for OS 3.2
+Sponsor: Hackulo.us <http://hackulo.us>
 
-Package: com.soundwave.app
-Name: SoundWave
-Description: SoundCloud client for iOS 3
-Maintainer: anazerka
-Author: anazerka
-Section: System
-Architecture: iphoneos-arm
-Version: 1.0.0-136+debug
-Installed-Size: 1200
-Size: 827524
-Filename: debs/com.soundwave.app_1.0.0-136+debug_iphoneos-arm.deb
-MD5sum: a291ff3a14445c045ea185209d2f1cea
-
-Author: chpwn <support@chpwn.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: Infiniboard
-Package: com.iosvidocum.infiniboard
-Section: Tweaks
-Pre-Depends: firmware (>= 5.0)
-Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport (>= 1.6)
-Architecture: iphoneos-arm
-Description: Vertically scroll your home screen pages!
-Depiction: http://chpwn.com/cydia/infiniboard.html
-Homepage: http://chpwn.com/cydia/infiniboard.html
-Sponsor: thebigboss.org <http://thebigboss.org>
-Icon: file:///Library/PreferenceLoader/Preferences/Infiniboard.png
-dev: chpwn
-Version: 2.1.2-1
-Installed-Size: 204
-Filename: debs/com.iosvidocum.infiniboard_2.1.2-1_iphoneos-arm.deb
-Size: 54654
-MD5sum: dcfd2e0110737a1deddf6197f7f7b0dd
-
-Author: chpwn <support@chpwn.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: Infinifolders
-Package: com.iosvidocum.infinifolders
-Section: Tweaks
-Pre-Depends: firmware (>= 5.0)
-Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
-Architecture: iphoneos-arm
-Description: Scroll your folders: break the icon barrier!
-Depiction: http://chpwn.com/cydia/infinifolders.html
-Homepage: http://chpwn.com/cydia/infinifolders.html
-Icon: file:///Library/PreferenceLoader/Preferences/Infinifolders.png
-Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::extension
-dev: chpwn
-Version: 2.1.2-1
-Installed-Size: 188
-Size: 49230
-Filename: debs/com.iosvidocum.infinifolders_2.1.2-1_iphoneos-arm.deb
-MD5sum: d0018e84263a6ae50a921a2668a902ae
-
-Package: com.iosvidocum.kDFUBundles
-Name: kDFUApp Bundles
-Version: 1.0.1
-Architecture: iphoneos-arm
-Depends: org.tihmstar.kDFUApp
-Description: More device support for kDFUApp
-Author: LukeZGD
-Maintainer: LukeZGD
-Section: System
-MD5sum: 1d5dba6d9bb8680a062bffef02ad47cc
-Size: 10746
-Filename: debs/com.iosvidocum.kDFUBundles_1.0.1_iphoneos-arm.deb
-
-Package: com.iosvidocum.kDFUApp
-Name: kDFUApp
-Version: 1.0.3
-Architecture: iphoneos-arm
-Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
-Priority: optional
-Description: easy way to get into kDFU mode
-Author: tihmstar
-Maintainer: tihmstar
-Section: System
-dev: tihmstar
-MD5sum: 780609610515709a4be0981c3d5a916c
-Size: 80276
-Filename: debs/com.iosvidocum.kDFUApp_1.0.3_iphoneos-arm.deb

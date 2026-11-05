@@ -464,17 +464,17 @@ Dev: aoi_satou
 Name: AppStoreFix
 
 Package: com.example.darkos6
-Version: 0.0.35
+Version: 0.0.36
 Architecture: iphoneos-arm
 Maintainer: @iOS_VI_Documentation
-Installed-Size: 296
+Installed-Size: 316
 Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
 Recommends: preferenceloader
-Filename: debs/com.example.darkos6_0.0.35_iphoneos-arm.deb
-Size: 86498
-MD5sum: c3e5802ef78b208e957564238c885ec0
-SHA1: 723c600b396b3da19780654fa18a16ec2599d80e
-SHA256: d3c56de6db7cf9ce00e47947ff093cb4e3481c83cce7b478262f3f44fc22180a
+Filename: debs/com.example.darkos6_0.0.36_iphoneos-arm.deb
+Size: 87822
+MD5sum: 7101c885679974a58f87b21858abdd13
+SHA1: a48f8c513f9690ecd97361682021ad8c8e298f30
+SHA256: 9dcd0b2922e097f93a763c34c298b7b8aea5b119a3e9500c6a76187862e64d42
 Section: Tweaks
 Description: Global dark mode for classic iOS 6 (6.0 - 6.1.6).
  Complete dark theme experience preserving authentic skeuomorphism.

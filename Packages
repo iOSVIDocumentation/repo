@@ -464,17 +464,17 @@ Dev: aoi_satou
 Name: AppStoreFix
 
 Package: com.example.darkos6
-Version: 0.0.36
+Version: 0.0.37
 Architecture: iphoneos-arm
 Maintainer: @iOS_VI_Documentation
 Installed-Size: 316
 Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
 Recommends: preferenceloader
-Filename: debs/com.example.darkos6_0.0.36_iphoneos-arm.deb
-Size: 87822
-MD5sum: 7101c885679974a58f87b21858abdd13
-SHA1: a48f8c513f9690ecd97361682021ad8c8e298f30
-SHA256: 9dcd0b2922e097f93a763c34c298b7b8aea5b119a3e9500c6a76187862e64d42
+Filename: debs/com.example.darkos6_0.0.37_iphoneos-arm.deb
+Size: 87586
+MD5sum: 913521742d606f08dad54fd62dc54dc1
+SHA1: 52c9c7baece9835792867f209e8190ed45fbb570
+SHA256: 98c479982554593b24d72b6fc644889d1f560861929d189d69e84e5360dc6d34
 Section: Tweaks
 Description: Global dark mode for classic iOS 6 (6.0 - 6.1.6).
  Complete dark theme experience preserving authentic skeuomorphism.
@@ -950,10 +950,10 @@ Maintainer: 鸡精人
 Installed-Size: 104
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.jjr.mcpefix_1.0_iphoneos-arm.deb
-Size: 5828
-MD5sum: 78849ed6b41965620ebfa541ae575f22
-SHA1: d5adcda94d7ca230e28865b42d40b901cf1babc6
-SHA256: 5aff18dcc3ace43563ccb504ae91faada2c504a676ebaac5e98e2516c4cc0b40
+Size: 5844
+MD5sum: 61b0e1788ec73a500471a6f08077919a
+SHA1: 21e4250d760f5d271ae82fb65fae5a313c54a2cd
+SHA256: 20cbed44eb1725acb278b077a145a21024daee43bfc6bab78b81a14dacc2c697
 Section: 工具
 Author: 鸡精人
 Name: MCPEFix

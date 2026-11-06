@@ -464,17 +464,17 @@ Dev: aoi_satou
 Name: AppStoreFix
 
 Package: com.example.darkos6
-Version: 0.0.37
+Version: 0.0.41
 Architecture: iphoneos-arm
 Maintainer: @iOS_VI_Documentation
 Installed-Size: 316
 Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
 Recommends: preferenceloader
-Filename: debs/com.example.darkos6_0.0.37_iphoneos-arm.deb
-Size: 87586
-MD5sum: 913521742d606f08dad54fd62dc54dc1
-SHA1: 52c9c7baece9835792867f209e8190ed45fbb570
-SHA256: 98c479982554593b24d72b6fc644889d1f560861929d189d69e84e5360dc6d34
+Filename: debs/com.example.darkos6_0.0.41_iphoneos-arm.deb
+Size: 91696
+MD5sum: 31df0204b9d7a6a31c01e59ef5d2379c
+SHA1: 2ce5313e8250b1e5021c550f8b3205b81f68192e
+SHA256: 76c9ba671426d407f78ef255a88dadc3d137a022d14f4ffe23bc54eb517c29c0
 Section: Tweaks
 Description: Global dark mode for classic iOS 6 (6.0 - 6.1.6).
  Complete dark theme experience preserving authentic skeuomorphism.
@@ -492,9 +492,9 @@ Description: Global dark mode for classic iOS 6 (6.0 - 6.1.6).
  License: Proprietary / Closed Source. All Rights Reserved.
  Copyright (c) 2026 iOS VI Documentation.
  .
- Developers: @iOS_VI_Documentation, @cmplog
+ Developers: @iOS_VI_Documentation
  Testers: @Survival_on_iOS_6, @kitalev, @notfence_dev
-Author: DarkOS6 Team (@iOS_VI_Documentation, @cmplog)
+Author: DarkOS6 Team (@iOS_VI_Documentation)
 License: Proprietary
 Name: DarkOS6
 

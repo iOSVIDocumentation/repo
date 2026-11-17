@@ -959,20 +959,20 @@ Author: 鸡精人
 Name: MCPEFix
 
 Package: com.koutsie.witch
-Version: 1.1.60
+Version: 1.1.376+3
 Architecture: iphoneos-arm
-Maintainer: Koutsie <contact@the-sauna.icu>
-Installed-Size: 2780
-Depends: firmware (>= 6.1.3), firmware (<= 10.3.3)
-Filename: debs/com.koutsie.witch_1.1.60_iphoneos-arm.deb
-Size: 1247400
-MD5sum: b8d8a5264495379b990004edeabb2717
-SHA1: 521f8ccf59bb890e53944779973a49d60869153e
-SHA256: b7649ad4abd3e6b674606bf6649e6cf8800ece13603d2607294780cf5eb63470
+Maintainer: koutsie <thesauna@ik.me>
+Installed-Size: 2976
+Depends: firmware (>= 5.0), firmware (<= 10.3.3)
+Filename: debs/com.koutsie.witch_1.1.376+3_iphoneos-arm.deb
+Size: 1360560
+MD5sum: 74db65b1139185b50b4416c519a4befb
+SHA1: 17a75b3f319d701aea19cf0502a7ab3212af38c1
+SHA256: 3fa7735108d44606a3d02a2aafa2e2ccccba842b42527cf7e1bcd6a7734a5bc0
 Section: Applications
-Homepage: https://koutsie.srht.site/
-Description: A magical Twitch client for iOS 6-10.
-Author: Koutsie
+Homepage: https://repo.k0.tel/
+Description: A magical Twitch client for iOS 5-10.
+Author: koutsie <thesauna@ik.me>
 Name: witch
 
 Package: com.legacyguides.pinterestx6

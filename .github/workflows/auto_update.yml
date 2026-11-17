@@ -1,8 +1,8 @@
-name: Auto-update vless-core
+name: Auto-update Upstream Packages
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Runs daily at 05:00 UTC
+    - cron: '0 4 * * *'  # Runs daily at 04:00 UTC
   workflow_dispatch:      # Allows manual trigger from Actions tab
 
 permissions:
@@ -27,13 +27,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y dpkg-dev bzip2 gzip
 
-      - name: Check and update vless-core
+      - name: Check and update upstream packages
         id: update_step
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          chmod +x update.sh scripts/sync_vless.py
-          python3 scripts/sync_vless.py
+          chmod +x update.sh scripts/sync_all.py
+          python3 scripts/sync_all.py
 
       - name: Commit and push changes
         if: steps.update_step.outputs.updated == 'true'
@@ -41,5 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add debs/ Packages Packages.bz2 Packages.gz Release
-          git commit -m "Auto-update vless-core to ${{ steps.update_step.outputs.version }} (${{ steps.update_step.outputs.tag }})"
+          git commit -m "Auto-update upstream packages: ${{ steps.update_step.outputs.summary }}"
           git push origin main

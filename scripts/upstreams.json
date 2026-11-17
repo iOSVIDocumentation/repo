@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vless-core",
+    "package": "com.vlesscore.app",
+    "type": "github_release",
+    "repo": "notfence/vless-core-app",
+    "asset": "com.vlesscore.app_iphoneos-arm.deb"
+  },
+  {
+    "id": "witch",
+    "package": "com.koutsie.witch",
+    "type": "cydia_repo",
+    "packages_url": "https://repo.k0.tel/Packages.bz2",
+    "arch": "iphoneos-arm"
+  }
+]

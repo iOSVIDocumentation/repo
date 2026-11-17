@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: archive tweaks
-Date: Tue, 17 Nov 2026 13:55:05 +0000
+Date: Tue, 17 Nov 2026 14:56:12 +0000
 MD5Sum:
- 7cf19d1469fa4bfaf05b779a7bc20178            74551 Packages
- e3243cf7b9fca32d05bafc6b9304cd4f            19660 Packages.gz
- d0a727345b5e99ffb135c534facb0c0d            18055 Packages.bz2
+ eacb080edac17dabc6a8681f53a6711d            74584 Packages
+ fbccd11d92af90456245d6889be93040            19692 Packages.gz
+ 6d4dd2466c0c00e0f5bad23a04cc204f            18060 Packages.bz2
 SHA1:
- 011c383627be779e1ec93f46a63e49e8e492bafa            74551 Packages
- 3fb6900a9743c746446bb912be658f9b7bc61176            19660 Packages.gz
- 86a878b5e1132bf714fa908c43cb29d4803423eb            18055 Packages.bz2
+ c75ec5559328fefc2664876377119b93f59b490d            74584 Packages
+ 67c119429989411c6e00c98481e907ca42190bd5            19692 Packages.gz
+ f835207163ff3588925cd64965510c98d9c96383            18060 Packages.bz2
 SHA256:
- 8a195701d88d76b24bd846b2a0f2b5e177ef5008145b3d46498f69b81f3d8a96            74551 Packages
- c5679a3ee017f5c35b8c7a69a2fb3bb7da00e471c8d4dc74813be9c360149d80            19660 Packages.gz
- d3a5cafd4c98f01a6a3684fb8d5e9b9bada8d573a66f3dcc0e1798064556d9f5            18055 Packages.bz2
+ 8b9e45be5dfbc9ba8ccfa3b2fd279765d21132f49b59cdd670bd234898ec3438            74584 Packages
+ 830949c6f26acd7cc4e509fcfe83f8f377471a341f8f2aeda820949878244bfc            19692 Packages.gz
+ 542a72fd6ce7c1742880013483594c4fc8d16b1d5c110c41996677cb0d76d41f            18060 Packages.bz2

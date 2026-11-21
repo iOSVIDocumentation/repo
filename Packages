@@ -1291,15 +1291,15 @@ Author: anazerka
 Name: SoundWave
 
 Package: com.vlesscore.app
-Version: 0.6.4-1
+Version: 0.6.5-1
 Architecture: iphoneos-arm
 Maintainer: notfence
 Depends: firmware (>= 5.0)
 Filename: debs/com.vlesscore.app_iphoneos-arm.deb
-Size: 11676094
-MD5sum: ee6cbb901926181a85a71d90fb856898
-SHA1: 5db8b77df5bf67778f227688a4edd5c5ba95f976
-SHA256: f2ebb0e0653afd809cba39f61ea1e9841622bfb3e8672cb1ef6895ab29330007
+Size: 12015616
+MD5sum: b378acf6f7254b928c895fb9abaeed28
+SHA1: 565eec37423f9379c0969dcad9a5e8691867df7a
+SHA256: 2788f71d38b2fab54f1150227e54769e42df4351eb96fa42da320441a4742f0d
 Section: Networking
 Priority: optional
 Description: TCP proxy app for VLESS, Trojan, VMess, Shadowsocks and SOCKS5
